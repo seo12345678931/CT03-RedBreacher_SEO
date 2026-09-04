@@ -1,0 +1,11 @@
+﻿id,displayName,unitPrefab,maxHealth,critChance,critMultiplier,attackRange,attackDamage,attackInterval,moveSpeed,rotationSpeed,fireAngleTolerance,repositionDistance,repositionCooldown
+01,탱크1,Assets/Prefab/Unit/SmallTank1.prefab,120,0.1,1.5,6,10,1,2,120,3,2,5
+02,탱크2,Assets/Prefab/Unit/SmallTank2.prefab,150,0.1,1.5,6,10,1,2.2,120,3,2.5,5
+03,탱크3,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/MediumTank1/MediumTank1.prefab,180,0.11,1.5,6.2,13,0.95,2.4,125,3,2.5,4.5
+04,탱크4,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/MediumTank2/MediumTank2.prefab,220,0.12,1.5,6.5,16,0.9,2.6,130,3,3,4.5
+05,탱크5,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/RocketLauncher3/RocketLauncher3.prefab,270,0.13,1.6,6.8,20,0.85,2.8,135,3,3,4
+06,탱크6,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/MediumTank4/MediumTank4.prefab,330,0.14,1.6,7,25,0.8,3,140,3,3.5,4
+07,탱크7,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/HeavyTank1/HeavyTank1.prefab,400,0.15,1.7,7.3,32,0.75,3.2,145,3,3.5,3.5
+08,탱크8,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/HeavyTank2/HeavyTank2.prefab,480,0.16,1.7,7.6,40,0.7,3.4,150,3,4,3.5
+09,탱크9,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/FlameTank/FlameTank.prefab,580,0.18,1.8,8,50,0.65,3.7,155,3,4,3
+10,탱크10,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Tanks/Mammoth/Mammoth.prefab,700,0.2,2,8.5,65,0.6,4,160,3,4.5,3

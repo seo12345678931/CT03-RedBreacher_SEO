@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d830320b7d549b1ad77c0a9044ec5c, type: 3}
+  m_Name: Enemy_06
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
+  id: 06
+  displayName: "\uC9C0\uB8B0RC"
+  enemyPrefab: {fileID: 6804874563998169931, guid: 39116fd9498fc47b1a501045ff1810c2, type: 3}
+  maxHealth: 200
+  moveSpeed: 0.6
+  stopDistance: 1.1
+  contactDamage: 27
+  contactInterval: 1
+  experienceReward: 70
+  creditReward: 56
+  coreCrystalReward: 0
+  partDropChance: 0.07
+  deathExplosionEffectPrefab: {fileID: 1312591640859010, guid: ba7ba54e0ea76594c8748942d4d05b1f, type: 3}
+  deathExplosionCleanupDelay: 0.6
+  deathExplosionOffset: {x: 0, y: 0, z: 0}
+  deathExplosionScale: 1
+  hitSounds:
+  - {fileID: 8300000, guid: 3a73663132fdbbb4ca6abfc111e5d7f3, type: 3}
+  - {fileID: 8300000, guid: 8ddda2ddc1a1fb14986c8f45c96fd4d8, type: 3}
+  - {fileID: 8300000, guid: 7801cb71e186218409a255b415aa6def, type: 3}
+  - {fileID: 8300000, guid: b78121d6f010ab446886ef6c9d149510, type: 3}

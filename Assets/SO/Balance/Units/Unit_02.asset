@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a649172b8254b66b5c5d2c0331ddef, type: 3}
+  m_Name: Unit_02
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerUnitConfig
+  id: 02
+  displayName: "\uACBD\uC804\uCC28-E"
+  unitPrefab: {fileID: 214164098778057125, guid: 129660349e2234cba81267de636b9864, type: 3}
+  maxHealth: 150
+  critChance: 0.1
+  critMultiplier: 1.5
+  attackRange: 6
+  attackDamage: 10
+  attackInterval: 0.9
+  moveSpeed: 2.2
+  rotationSpeed: 120
+  fireAngleTolerance: 3
+  repositionDistance: 2.5
+  repositionCooldown: 5
+  bossDodgeCooldown: 1.2

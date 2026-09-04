@@ -1,0 +1,3318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3502dc2e03d14493cbafb78a4afc3d6b, type: 3}
+  m_Name: GuideMissionConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GuideMissionConfig
+  steps:
+  - order: 1
+    id: kill_enemies_10_step1
+    conditionType: 0
+    conditionTarget: 
+    title: "\uCCAB \uAD50\uC804"
+    description: "\uC801 10\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 0
+    rewardAmount: 300
+  - order: 2
+    id: reach_level_3_step2
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC9C0\uD718\uAD00 \uC2B9\uAE09"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 0
+    rewardAmount: 400
+  - order: 3
+    id: collect_credits_500_step3
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBCF4\uAE09 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 500
+    rewardCurrency: 0
+    rewardAmount: 400
+  - order: 4
+    id: reach_command_center_level_2_step4
+    conditionType: 6
+    conditionTarget: command_center
+    title: "\uAE30\uC9C0 \uC99D\uCD95"
+    description: "\uC9C0\uD718\uC18C \uB808\uBCA8 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 5
+  - order: 5
+    id: enhance_weapon_1_step5
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uC815\uBE44"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 500
+  - order: 6
+    id: draw_weapon_1_step6
+    conditionType: 11
+    conditionTarget: 
+    title: "\uBCF4\uAE09 \uC694\uCCAD"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 5
+  - order: 7
+    id: reach_stage_1_step7
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 1\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 5
+  - order: 8
+    id: use_boss_ticket_1_step8
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC804\uC220 \uB3CC\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 1\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 500
+  - order: 9
+    id: draw_skill_1_step9
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09"
+    description: "\uC2A4\uD0AC\uC744 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 10
+  - order: 10
+    id: reach_level_5_step10
+    conditionType: 1
+    conditionTarget: 
+    title: "\uBCA0\uD14C\uB791"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 5\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 15
+  - order: 12
+    id: collect_drones_1_step12
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uAC1C"
+    description: "\uB4DC\uB860 1\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 10
+  - order: 13
+    id: claim_offline_1_step13
+    conditionType: 13
+    conditionTarget: 
+    title: "\uC790\uB3D9 \uBCF4\uAE09 (\uC7AC\uC811\uC18D)"
+    description: "\uC624\uD504\uB77C\uC778 \uBCF4\uC0C1\uC744 1\uD68C \uC218\uB839\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 8
+  - order: 14
+    id: enhance_drone_1_step14
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC870\uC728"
+    description: "\uB4DC\uB860\uC744 1\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 800
+  - order: 15
+    id: enhance_unit_1_step15
+    conditionType: 8
+    conditionTarget: 
+    title: "\uBD80\uB300 \uC7AC\uD3B8"
+    description: "\uC720\uB2DB \uAC15\uD654 1\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 900
+  - order: 16
+    id: enhance_weapon_1_step16
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC8FC\uB825 \uAC15\uD654"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 12
+  - order: 17
+    id: kill_enemies_20_step17
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC18C\uD0D5 \uC791\uC804"
+    description: "\uC801 20\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 0
+    rewardAmount: 1000
+  - order: 18
+    id: reach_stage_2_step18
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC5ED \uD655\uC7A5"
+    description: "\uC2A4\uD14C\uC774\uC9C0 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 15
+  - order: 19
+    id: reach_energy_refinery_level_2_step19
+    conditionType: 6
+    conditionTarget: energy_refinery
+    title: "\uAE30\uC9C0 \uD655\uC7A5"
+    description: "\uC815\uC81C\uC18C \uB808\uBCA8 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 15
+  - order: 20
+    id: draw_weapon_1_step20
+    conditionType: 11
+    conditionTarget: 
+    title: "\uB300\uADDC\uBAA8 \uBCF4\uAE09"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 20
+  - order: 21
+    id: reach_level_7_step21
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC815\uC608 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 7\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 20
+  - order: 22
+    id: collect_credits_1000_step22
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC2DC \uACBD\uC81C"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 1000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 1000
+    rewardCurrency: 1
+    rewardAmount: 25
+  - order: 23
+    id: draw_skill_1_step23
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC804\uC220 \uC2A4\uD0AC \uD655\uBCF4"
+    description: "\uC2A4\uD0AC\uC744 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 25
+  - order: 24
+    id: enhance_weapon_5_step24
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uB9C8\uC2A4\uD130"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 30
+  - order: 25
+    id: reach_stage_3_step25
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC601\uD1A0 \uC7A5\uC545"
+    description: "\uC2A4\uD14C\uC774\uC9C0 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 35
+  - order: 26
+    id: reach_level_9_step26
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC124\uC758 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 9\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 9
+    rewardCurrency: 1
+    rewardAmount: 50
+  - order: 27
+    id: draw_skill_1_step27
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uD655\uB300"
+    description: "\uC2A4\uD0AC\uC744 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 75
+  - order: 28
+    id: kill_enemies_20_step28
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC12C\uBA78 \uC791\uC804"
+    description: "\uC801 20\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 0
+    rewardAmount: 1500
+  - order: 29
+    id: enhance_drone_1_step29
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC815\uBC00 \uC870\uC728"
+    description: "\uB4DC\uB860\uC744 1\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 20
+  - order: 31
+    id: reach_assembly_factory_level_2_step31
+    conditionType: 6
+    conditionTarget: assembly_factory
+    title: "\uAE30\uC9C0 \uCCB4\uACC4\uD654"
+    description: "\uC870\uB9BD \uACF5\uC7A5 \uB808\uBCA8 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 25
+  - order: 32
+    id: draw_weapon_1_step32
+    conditionType: 11
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uBCF4\uAE09 \uD655\uB300"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 30
+  - order: 33
+    id: collect_weapons_1_step33
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30\uACE0 \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 1800
+  - order: 34
+    id: collect_drones_2_step34
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 2"
+    description: "\uB4DC\uB860 2\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 25
+  - order: 35
+    id: reach_stage_5_step35
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC555\uBC15"
+    description: "\uC2A4\uD14C\uC774\uC9C0 5\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 40
+  - order: 36
+    id: reach_level_12_step36
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC219\uB828 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 12\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 12
+    rewardCurrency: 1
+    rewardAmount: 55
+  - order: 37
+    id: collect_credits_1500_step37
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC2DC \uC790\uAE08 \uC6B4\uC6A9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 1500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 1500
+    rewardCurrency: 1
+    rewardAmount: 40
+  - order: 38
+    id: use_boss_ticket_1_step38
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC815\uC608 \uCD94\uC801"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 1\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 2000
+  - order: 39
+    id: defeat_boss_1_step39
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC70\uC810 \uD30C\uAD34\uC790"
+    description: "\uBCF4\uC2A4\uB97C 1\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 80
+  - order: 40
+    id: enhance_weapon_5_step40
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uC9C0\uBC30"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 45
+  - order: 41
+    id: kill_enemies_30_step41
+    conditionType: 0
+    conditionTarget: 
+    title: "\uB300\uADDC\uBAA8 \uC18C\uD0D5"
+    description: "\uC801 30\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 0
+    rewardAmount: 2500
+  - order: 42
+    id: reach_core_charger_level_2_step42
+    conditionType: 6
+    conditionTarget: core_charger
+    title: "\uBC29\uC5B4\uC120 \uC99D\uCD95"
+    description: "\uCF54\uC5B4 \uCDA9\uC804\uC18C \uB808\uBCA8 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 45
+  - order: 43
+    id: enhance_unit_2_step43
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC815\uC608 \uBD80\uB300 \uC721\uC131"
+    description: "\uC720\uB2DB \uAC15\uD654 2\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 45
+  - order: 44
+    id: enhance_drone_1_step44
+    conditionType: 9
+    conditionTarget: 
+    title: "\uACF5\uC911 \uC9C0\uC6D0 \uAC15\uD654"
+    description: "\uB4DC\uB860\uC744 1\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 45
+  - order: 45
+    id: reach_stage_6_step45
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC9C4\uACA9 \uBA85\uB839"
+    description: "\uC2A4\uD14C\uC774\uC9C0 6\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 55
+  - order: 46
+    id: draw_skill_5_step46
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 5\uD68C \uBF51\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 55
+  - order: 47
+    id: reach_level_14_step47
+    conditionType: 1
+    conditionTarget: 
+    title: "\uAC15\uC2B5 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 14\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 14
+    rewardCurrency: 1
+    rewardAmount: 65
+  - order: 48
+    id: collect_credits_2000_step48
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uBE44 \uCD95\uC801"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 2000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 2000
+    rewardCurrency: 1
+    rewardAmount: 60
+  - order: 49
+    id: defeat_boss_1_step49
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC81C\uAC70"
+    description: "\uBCF4\uC2A4\uB97C 1\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 1
+    rewardAmount: 90
+  - order: 50
+    id: collect_weapons_1_step50
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC804\uC220 \uBB34\uC7A5 \uC218\uC9D1"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 3000
+  - order: 51
+    id: collect_drones_3_step51
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 3"
+    description: "\uB4DC\uB860 3\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 45
+  - order: 52
+    id: kill_enemies_40_step52
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC7A5\uC545"
+    description: "\uC801 40\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 40
+    rewardCurrency: 0
+    rewardAmount: 4000
+  - order: 53
+    id: enhance_weapon_5_step53
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uCD5C\uC801\uD654"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 70
+  - order: 54
+    id: reach_skill_hanger_level_2_step54
+    conditionType: 6
+    conditionTarget: skill_hanger
+    title: "\uC791\uC804 \uBCF8\uBD80 \uAC15\uD654"
+    description: "\uC2A4\uD0AC \uACA9\uB0A9\uACE0 \uB808\uBCA8 2\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 70
+  - order: 55
+    id: reach_stage_7_step55
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC7A5\uAE30 \uC9C4\uAD70"
+    description: "\uC2A4\uD14C\uC774\uC9C0 7\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 75
+  - order: 56
+    id: use_boss_ticket_1_step56
+    conditionType: 10
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uCD94\uACA9\uC804"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 1\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 4500
+  - order: 57
+    id: defeat_boss_2_step57
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC804\uC220 \uC9C0\uBC30\uC790"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 110
+  - order: 58
+    id: reach_level_17_step58
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC0C1\uAE09 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 17\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 17
+    rewardCurrency: 1
+    rewardAmount: 80
+  - order: 60
+    id: enhance_drone_5_step60
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uAD70\uC9D1 \uC6B4\uC6A9"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 75
+  - order: 61
+    id: draw_weapon_5_step61
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC9D1\uC911 \uBCF4\uAE09 \uC791\uC804"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uBF51\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 85
+  - order: 62
+    id: collect_credits_2500_step62
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uC790\uAE08 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 2500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 2500
+    rewardCurrency: 1
+    rewardAmount: 85
+  - order: 63
+    id: kill_enemies_50_step63
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC555\uB3C4\uC801 \uD654\uB825"
+    description: "\uC801 50\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 50
+    rewardCurrency: 0
+    rewardAmount: 6500
+  - order: 64
+    id: reach_stage_8_step64
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uACE0\uCC29 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 8\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 95
+  - order: 65
+    id: reach_command_center_level_3_step65
+    conditionType: 6
+    conditionTarget: command_center
+    title: "\uAE30\uC9C0 \uC644\uC131\uB3C4 \uD5A5\uC0C1"
+    description: "\uC9C0\uD718\uC18C \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 95
+  - order: 66
+    id: defeat_boss_2_step66
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC15\uC801 \uC81C\uC555"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 130
+  - order: 67
+    id: collect_weapons_1_step67
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uCE74\uD0C8\uB85C\uADF8"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 7000
+  - order: 68
+    id: collect_drones_4_step68
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 4"
+    description: "\uB4DC\uB860 4\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 70
+  - order: 69
+    id: reach_level_19_step69
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC7A5\uC758 \uC124\uACC4\uC790"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 19\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 19
+    rewardCurrency: 1
+    rewardAmount: 100
+  - order: 70
+    id: enhance_weapon_5_step70
+    conditionType: 7
+    conditionTarget: 
+    title: "\uACB0\uC804 \uD654\uB825 \uC900\uBE44"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 110
+  - order: 72
+    id: enhance_drone_5_step72
+    conditionType: 9
+    conditionTarget: 
+    title: "\uBB34\uC778 \uC804\uB825 \uC644\uC131"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 110
+  - order: 73
+    id: use_boss_ticket_2_step73
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uAD6C\uC5ED \uC9C4\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 2\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 0
+    rewardAmount: 8000
+  - order: 74
+    id: draw_skill_5_step74
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 5\uD68C \uBF51\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 120
+  - order: 75
+    id: reach_stage_9_step75
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC601\uC5ED \uD655\uC7A5 \uC791\uC804"
+    description: "\uC2A4\uD14C\uC774\uC9C0 9\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 9
+    rewardCurrency: 1
+    rewardAmount: 125
+  - order: 76
+    id: defeat_boss_2_step76
+    conditionType: 14
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uC0AC\uB0E5\uAFBC"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 150
+  - order: 77
+    id: collect_credits_3000_step77
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC120 \uAD70\uC218 \uC791\uC804"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 3000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 3000
+    rewardCurrency: 1
+    rewardAmount: 125
+  - order: 78
+    id: kill_enemies_60_step78
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uCCAD\uC18C"
+    description: "\uC801 60\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 60
+    rewardCurrency: 0
+    rewardAmount: 10000
+  - order: 79
+    id: reach_energy_refinery_level_3_step79
+    conditionType: 6
+    conditionTarget: energy_refinery
+    title: "\uC694\uC0C8\uD654 \uACC4\uD68D"
+    description: "\uC815\uC81C\uC18C \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 135
+  - order: 80
+    id: reach_level_22_step80
+    conditionType: 1
+    conditionTarget: 
+    title: "\uCD5C\uC815\uC608 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 22\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 22
+    rewardCurrency: 1
+    rewardAmount: 140
+  - order: 81
+    id: collect_weapons_1_step81
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uC804\uBB38\uAC00"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 11000
+  - order: 82
+    id: collect_drones_5_step82
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 5"
+    description: "\uB4DC\uB860 5\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 100
+  - order: 83
+    id: enhance_weapon_5_step83
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uC644\uC804 \uAC1C\uBC29"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 145
+  - order: 84
+    id: enhance_unit_3_step84
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC804\uD22C \uAD50\uB9AC \uC644\uC131"
+    description: "\uC720\uB2DB \uAC15\uD654 3\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 145
+  - order: 85
+    id: enhance_drone_5_step85
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uAD50\uB9AC \uC644\uC131"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 145
+  - order: 86
+    id: reach_stage_10_step86
+    conditionType: 2
+    conditionTarget: 
+    title: "\uB300\uB959 \uC9C4\uAD70"
+    description: "\uC2A4\uD14C\uC774\uC9C0 10\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 155
+  - order: 87
+    id: defeat_boss_2_step87
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC885\uC2DD"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 180
+  - order: 88
+    id: draw_weapon_5_step88
+    conditionType: 11
+    conditionTarget: 
+    title: "\uCD5C\uC804\uC120 \uBCF4\uAE09"
+    description: "\uBB34\uAE30\uB97C 5\uD68C \uBF51\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 160
+  - order: 89
+    id: use_boss_ticket_2_step89
+    conditionType: 10
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uC791\uC804 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 2\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 0
+    rewardAmount: 13000
+  - order: 90
+    id: collect_credits_3500_step90
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAC70\uB300 \uAD70\uC218 \uACBD\uC81C"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 3500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 3500
+    rewardCurrency: 1
+    rewardAmount: 170
+  - order: 91
+    id: kill_enemies_70_step91
+    conditionType: 0
+    conditionTarget: 
+    title: "\uB05D\uC5C6\uB294 \uACF5\uC138"
+    description: "\uC801 70\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 70
+    rewardCurrency: 0
+    rewardAmount: 15000
+  - order: 92
+    id: reach_assembly_factory_level_3_step92
+    conditionType: 6
+    conditionTarget: assembly_factory
+    title: "\uC644\uC131\uD615 \uAE30\uC9C0"
+    description: "\uC870\uB9BD \uACF5\uC7A5 \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 175
+  - order: 93
+    id: reach_level_25_step93
+    conditionType: 1
+    conditionTarget: 
+    title: "\uCD5C\uACE0 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 25\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 200
+  - order: 94
+    id: collect_weapons_1_step94
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC804\uC124 \uBB34\uAE30\uACE0"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 16000
+  - order: 95
+    id: collect_drones_6_step95
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 6"
+    description: "\uB4DC\uB860 6\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 140
+  - order: 96
+    id: enhance_weapon_10_step96
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC885\uACB0 \uD654\uB825"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 220
+  - order: 98
+    id: enhance_drone_5_step98
+    conditionType: 9
+    conditionTarget: 
+    title: "\uBB34\uC778 \uC804\uC7A5\uC758 \uC9C0\uBC30\uC790"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 220
+  - order: 99
+    id: reach_stage_12_step99
+    conditionType: 2
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uC804\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 12\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 12
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 100
+    id: defeat_boss_2_step100
+    conditionType: 14
+    conditionTarget: 
+    title: "\uCD5C\uD6C4\uC758 \uD1A0\uBC8C\uC790"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 101
+    id: kill_enemies_80_step101
+    conditionType: 0
+    conditionTarget: 
+    title: "\uBC29\uC5B4\uC120 \uC815\uB9AC"
+    description: "\uC801 80\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 80
+    rewardCurrency: 0
+    rewardAmount: 16000
+  - order: 102
+    id: reach_core_charger_level_3_step102
+    conditionType: 6
+    conditionTarget: core_charger
+    title: "\uC9C0\uD718\uC18C \uD655\uC7A5"
+    description: "\uCF54\uC5B4 \uCDA9\uC804\uC18C \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 185
+  - order: 103
+    id: reach_level_28_step103
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC220 \uCC38\uBAA8\uC7A5"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 28\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 28
+    rewardCurrency: 1
+    rewardAmount: 210
+  - order: 104
+    id: enhance_weapon_10_step104
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825\uB9DD \uC7AC\uC815\uBE44"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 230
+  - order: 105
+    id: reach_stage_13_step105
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC720\uC9C0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 13\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 13
+    rewardCurrency: 1
+    rewardAmount: 250
+  - order: 106
+    id: collect_credits_4000_step106
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBCF4\uAE09\uC120 \uC548\uC815\uD654"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 4000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 4000
+    rewardCurrency: 1
+    rewardAmount: 180
+  - order: 107
+    id: defeat_boss_2_step107
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC15\uC2B5 \uC9C0\uD718"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 108
+    id: draw_skill_5_step108
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 5\uD68C \uBF51\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 175
+  - order: 110
+    id: enhance_drone_5_step110
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uC220 \uAC31\uC2E0"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 230
+  - order: 111
+    id: kill_enemies_90_step111
+    conditionType: 0
+    conditionTarget: 
+    title: "\uACA9\uC804\uC9C0 \uC218\uBCF5"
+    description: "\uC801 90\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 90
+    rewardCurrency: 0
+    rewardAmount: 17000
+  - order: 112
+    id: collect_weapons_1_step112
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uC218\uC9D1\uAC00"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 17500
+  - order: 113
+    id: collect_drones_7_step113
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 7"
+    description: "\uB4DC\uB860 7\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 150
+  - order: 114
+    id: use_boss_ticket_2_step114
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC791\uC804\uAD8C \uD22C\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 2\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 0
+    rewardAmount: 14000
+  - order: 115
+    id: reach_stage_14_step115
+    conditionType: 2
+    conditionTarget: 
+    title: "\uAC70\uC810 \uC804\uC9C4"
+    description: "\uC2A4\uD14C\uC774\uC9C0 14\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 14
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 116
+    id: collect_credits_4500_step116
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC120 \uC7AC\uC6D0 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 4500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 4500
+    rewardCurrency: 1
+    rewardAmount: 190
+  - order: 117
+    id: defeat_boss_2_step117
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uAC1C\uCCB4 \uCD94\uC801"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 118
+    id: reach_skill_hanger_level_3_step118
+    conditionType: 6
+    conditionTarget: skill_hanger
+    title: "\uBC29\uC5B4 \uC124\uBE44 \uAC15\uD654"
+    description: "\uC2A4\uD0AC \uACA9\uB0A9\uACE0 \uB808\uBCA8 3\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 195
+  - order: 119
+    id: enhance_weapon_10_step119
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC8FC\uD3EC \uC815\uBE44"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 120
+    id: reach_level_30_step120
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC791\uC804 \uCD1D\uAD04\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 30\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 220
+  - order: 121
+    id: kill_enemies_100_step121
+    conditionType: 0
+    conditionTarget: 
+    title: "\uB3CC\uD30C\uAD6C \uD655\uBCF4"
+    description: "\uC801 100\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 100
+    rewardCurrency: 0
+    rewardAmount: 18000
+  - order: 122
+    id: draw_weapon_10_step122
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uBCF4\uAE09 \uC694\uCCAD"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uBF51\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 185
+  - order: 123
+    id: enhance_unit_4_step123
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC804\uD22C\uC870 \uC219\uB828"
+    description: "\uC720\uB2DB \uAC15\uD654 4\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 124
+    id: enhance_drone_5_step124
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC6B4\uC6A9 \uC2EC\uD654"
+    description: "\uB4DC\uB860\uC744 5\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 125
+    id: reach_stage_15_step125
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC9C4 \uAE30\uC9C0 \uD655\uBCF4"
+    description: "\uC2A4\uD14C\uC774\uC9C0 15\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 126
+    id: collect_credits_5000_step126
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBE44\uCD95 \uC790\uAE08 \uC6B4\uC6A9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 5000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 5000
+    rewardCurrency: 1
+    rewardAmount: 200
+  - order: 127
+    id: defeat_boss_2_step127
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC81C\uC555"
+    description: "\uBCF4\uC2A4\uB97C 2\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 128
+    id: collect_weapons_1_step128
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC804\uD22C \uC7A5\uBE44 \uD655\uCDA9"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 19000
+  - order: 129
+    id: collect_drones_8_step129
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 8"
+    description: "\uB4DC\uB860 8\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 160
+  - order: 130
+    id: use_boss_ticket_2_step130
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uC784\uBB34 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 2\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 2
+    rewardCurrency: 0
+    rewardAmount: 15000
+  - order: 131
+    id: kill_enemies_110_step131
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uC220 \uC18C\uD0D5"
+    description: "\uC801 110\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 110
+    rewardCurrency: 0
+    rewardAmount: 19000
+  - order: 132
+    id: reach_command_center_level_4_step132
+    conditionType: 6
+    conditionTarget: command_center
+    title: "\uD6C4\uBC29 \uCCB4\uACC4 \uBCF4\uAC15"
+    description: "\uC9C0\uD718\uC18C \uB808\uBCA8 4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 205
+  - order: 133
+    id: enhance_weapon_10_step133
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC804\uC120 \uD654\uB825 \uBCF4\uC815"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 250
+  - order: 134
+    id: reach_stage_16_step134
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC5ED \uD1B5\uC81C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 16\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 16
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 135
+    id: reach_level_33_step135
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC5F0\uD569 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 33\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 33
+    rewardCurrency: 1
+    rewardAmount: 230
+  - order: 136
+    id: collect_credits_5500_step136
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC2DC \uC608\uC0B0 \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 5500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 5500
+    rewardCurrency: 1
+    rewardAmount: 210
+  - order: 137
+    id: defeat_boss_3_step137
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC815\uC608 \uBCF4\uC2A4 \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 340
+  - order: 138
+    id: draw_skill_10_step138
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 10\uD68C \uBF51\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 195
+  - order: 140
+    id: enhance_drone_10_step140
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uB124\uD2B8\uC6CC\uD06C \uAC15\uD654"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 250
+  - order: 141
+    id: kill_enemies_130_step141
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC810\uB839\uC9C0 \uC815\uB9AC"
+    description: "\uC801 130\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 130
+    rewardCurrency: 0
+    rewardAmount: 20000
+  - order: 142
+    id: collect_weapons_1_step142
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC911\uD654\uAE30 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 20500
+  - order: 143
+    id: collect_drones_9_step143
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 9"
+    description: "\uB4DC\uB860 9\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 9
+    rewardCurrency: 1
+    rewardAmount: 170
+  - order: 144
+    id: use_boss_ticket_3_step144
+    conditionType: 10
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uC9C4\uC785 \uC2B9\uC778"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 3\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 0
+    rewardAmount: 16000
+  - order: 145
+    id: reach_stage_17_step145
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC7A5\uC545 \uC9C0\uC5ED \uD655\uB300"
+    description: "\uC2A4\uD14C\uC774\uC9C0 17\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 17
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 146
+    id: collect_credits_6000_step146
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uD750\uB984 \uAC15\uD654"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 6000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 6000
+    rewardCurrency: 1
+    rewardAmount: 220
+  - order: 147
+    id: defeat_boss_3_step147
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC70\uB300 \uC704\uD611 \uACA9\uD1F4"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 350
+  - order: 148
+    id: reach_energy_refinery_level_4_step148
+    conditionType: 6
+    conditionTarget: energy_refinery
+    title: "\uD1B5\uD569 \uAE30\uC9C0 \uC6B4\uC6A9"
+    description: "\uC815\uC81C\uC18C \uB808\uBCA8 4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 215
+  - order: 149
+    id: enhance_weapon_15_step149
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825\uC120 \uC548\uC815\uD654"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 150
+    id: reach_level_36_step150
+    conditionType: 1
+    conditionTarget: 
+    title: "\uCD5C\uC804\uC120 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 36\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 36
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 151
+    id: kill_enemies_140_step151
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uBC29 \uB300\uCCAD\uC18C"
+    description: "\uC801 140\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 140
+    rewardCurrency: 0
+    rewardAmount: 21500
+  - order: 152
+    id: draw_weapon_10_step152
+    conditionType: 11
+    conditionTarget: 
+    title: "\uB300\uADDC\uBAA8 \uC7A5\uBE44 \uBCF4\uAE09"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uBF51\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 205
+  - order: 154
+    id: enhance_drone_10_step154
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uC7A5 \uC801\uC751"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 155
+    id: reach_stage_19_step155
+    conditionType: 2
+    conditionTarget: 
+    title: "\uACF5\uC138 \uC720\uC9C0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 19\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 19
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 156
+    id: collect_credits_6500_step156
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uD22C \uC790\uAE08 \uD68C\uC218"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 6500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 6500
+    rewardCurrency: 1
+    rewardAmount: 230
+  - order: 157
+    id: defeat_boss_3_step157
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC804\uC220 \uC12C\uBA78\uC790"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 360
+  - order: 158
+    id: collect_weapons_1_step158
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uCCB4\uACC4 \uC644\uC131"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 22000
+  - order: 159
+    id: collect_drones_10_step159
+    conditionType: 4
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uD574\uAE08 10"
+    description: "\uB4DC\uB860 10\uAE30 \uD574\uAE08\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 180
+  - order: 160
+    id: use_boss_ticket_3_step160
+    conditionType: 10
+    conditionTarget: 
+    title: "\uACE0\uC704\uD5D8 \uC791\uC804 \uD22C\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 3\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 0
+    rewardAmount: 17000
+  - order: 161
+    id: kill_enemies_150_step161
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC555\uBC15 \uC791\uC804"
+    description: "\uC801 150\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 150
+    rewardCurrency: 0
+    rewardAmount: 23000
+  - order: 162
+    id: reach_assembly_factory_level_4_step162
+    conditionType: 6
+    conditionTarget: assembly_factory
+    title: "\uBCF8\uBD80 \uC124\uBE44 \uD655\uC7A5"
+    description: "\uC870\uB9BD \uACF5\uC7A5 \uB808\uBCA8 4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 225
+  - order: 163
+    id: enhance_weapon_15_step163
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC8FC\uB825 \uD654\uAE30 \uAC1C\uB7C9"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 164
+    id: reach_stage_20_step164
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC5ED \uC9C4\uC785"
+    description: "\uC2A4\uD14C\uC774\uC9C0 20\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 165
+    id: reach_level_39_step165
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC5ED \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 39\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 39
+    rewardCurrency: 1
+    rewardAmount: 250
+  - order: 166
+    id: collect_credits_7000_step166
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218\uB9DD \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 7000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 7000
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 167
+    id: defeat_boss_3_step167
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC2EC\uD310\uC790"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 370
+  - order: 168
+    id: draw_skill_10_step168
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 10\uD68C \uBF51\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 215
+  - order: 169
+    id: enhance_unit_5_step169
+    conditionType: 8
+    conditionTarget: 
+    title: "\uAD70\uB2E8 \uC804\uB825 \uC0C1\uC2B9"
+    description: "\uC720\uB2DB \uAC15\uD654 5\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 170
+    id: enhance_drone_10_step170
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC791\uC804 \uACE0\uB3C4\uD654"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 171
+    id: kill_enemies_160_step171
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uC120 \uC18C\uD0D5\uB9DD"
+    description: "\uC801 160\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 160
+    rewardCurrency: 0
+    rewardAmount: 24500
+  - order: 172
+    id: collect_weapons_1_step172
+    conditionType: 3
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 23500
+  - order: 174
+    id: use_boss_ticket_3_step174
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC5F0\uC18D \uBCF4\uC2A4 \uC791\uC804"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 3\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 0
+    rewardAmount: 18000
+  - order: 175
+    id: reach_stage_21_step175
+    conditionType: 2
+    conditionTarget: 
+    title: "\uD6C4\uBC18 \uC804\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 21\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 21
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 176
+    id: collect_credits_7500_step176
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC791\uC804 \uC790\uAE08 \uB300\uD615\uD654"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 7500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 7500
+    rewardCurrency: 1
+    rewardAmount: 255
+  - order: 177
+    id: defeat_boss_3_step177
+    conditionType: 14
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uC804\uB2F4 \uBD80\uB300"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 380
+  - order: 178
+    id: defeat_boss_3_step178
+    conditionType: 14
+    conditionTarget: 
+    title: "\uD6C4\uBC18 \uBCF4\uC2A4 \uACA9\uD1F4"
+    description: "\uBCF4\uC2A4\uB97C 3\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 1
+    rewardAmount: 235
+  - order: 179
+    id: enhance_weapon_15_step179
+    conditionType: 7
+    conditionTarget: 
+    title: "\uACB0\uC804 \uC7A5\uBE44 \uBCF4\uC815"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 180
+    id: reach_level_42_step180
+    conditionType: 1
+    conditionTarget: 
+    title: "\uCD1D\uC0AC\uB839\uBD80 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 42\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 42
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 181
+    id: kill_enemies_170_step181
+    conditionType: 0
+    conditionTarget: 
+    title: "\uACB0\uC804\uC9C0 \uC815\uB9AC"
+    description: "\uC801 170\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 170
+    rewardCurrency: 0
+    rewardAmount: 26000
+  - order: 182
+    id: draw_weapon_10_step182
+    conditionType: 11
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uBCF4\uAE09 \uC900\uBE44"
+    description: "\uBB34\uAE30\uB97C 10\uD68C \uBF51\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 225
+  - order: 184
+    id: enhance_drone_10_step184
+    conditionType: 9
+    conditionTarget: 
+    title: "\uBB34\uC778 \uC804\uB825 \uC808\uC815"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 185
+    id: reach_stage_22_step185
+    conditionType: 2
+    conditionTarget: 
+    title: "\uCD5C\uD6C4 \uC804\uC5ED \uC9C4\uAD70"
+    description: "\uC2A4\uD14C\uC774\uC9C0 22\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 22
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 186
+    id: collect_credits_8000_step186
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC5ED \uBCF4\uAE09 \uC644\uC131"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 8000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 8000
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 187
+    id: defeat_boss_4_step187
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC644\uC804 \uCC28\uB2E8"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 390
+  - order: 188
+    id: collect_weapons_1_step188
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC804\uC124 \uC7A5\uBE44 \uD655\uCDA9"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 25000
+  - order: 190
+    id: use_boss_ticket_3_step190
+    conditionType: 10
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uC791\uC804 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 3\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 3
+    rewardCurrency: 0
+    rewardAmount: 19000
+  - order: 191
+    id: kill_enemies_190_step191
+    conditionType: 0
+    conditionTarget: 
+    title: "\uB300\uC804\uC5ED \uC18C\uD0D5"
+    description: "\uC801 190\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 190
+    rewardCurrency: 0
+    rewardAmount: 28000
+  - order: 192
+    id: reach_stage_23_step192
+    conditionType: 2
+    conditionTarget: 
+    title: "\uD6C4\uBC18 \uC804\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 23\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 23
+    rewardCurrency: 1
+    rewardAmount: 245
+  - order: 193
+    id: enhance_weapon_15_step193
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC885\uACB0 \uC7A5\uBE44 \uAC1C\uB7C9"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 194
+    id: reach_stage_24_step194
+    conditionType: 2
+    conditionTarget: 
+    title: "\uCC9C \uBC88\uC9F8 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 24\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 24
+    rewardCurrency: 1
+    rewardAmount: 350
+  - order: 195
+    id: reach_level_45_step195
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC124 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 45\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 45
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 196
+    id: collect_credits_8500_step196
+    conditionType: 5
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uAD70\uC218 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 8500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 8500
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 197
+    id: defeat_boss_4_step197
+    conditionType: 14
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uC704\uD611 \uACA9\uD1F4"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 420
+  - order: 198
+    id: kill_enemies_200_step198
+    conditionType: 0
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uC18C\uD0D5 \uC791\uC804"
+    description: "\uC801 200\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 200
+    rewardCurrency: 0
+    rewardAmount: 32000
+  - order: 199
+    id: collect_credits_9000_step199
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC5ED \uACBD\uC81C \uC7A5\uC545"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 9000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 9000
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 200
+    id: defeat_boss_4_step200
+    conditionType: 14
+    conditionTarget: 
+    title: "\uBD89\uC740 \uC804\uC7A5\uC758 \uC9C0\uBC30\uC790"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 500
+  - order: 201
+    id: kill_enemies_210_step201
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC794\uB2F9 \uC18C\uD0D5"
+    description: "\uC801 210\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 210
+    rewardCurrency: 0
+    rewardAmount: 33000
+  - order: 202
+    id: reach_stage_26_step202
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC9C4\uAD70\uB85C \uD655\uBCF4"
+    description: "\uC2A4\uD14C\uC774\uC9C0 26\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 26
+    rewardCurrency: 1
+    rewardAmount: 360
+  - order: 203
+    id: reach_level_48_step203
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC219\uB828 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 48\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 48
+    rewardCurrency: 1
+    rewardAmount: 285
+  - order: 204
+    id: kill_enemies_220_step204
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC678\uACFD \uC815\uB9AC"
+    description: "\uC801 220\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 220
+    rewardCurrency: 0
+    rewardAmount: 250
+  - order: 205
+    id: enhance_weapon_20_step205
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uCD9C\uB825 \uC870\uC815"
+    description: "\uBB34\uAE30\uB97C 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 305
+  - order: 206
+    id: collect_credits_9500_step206
+    conditionType: 5
+    conditionTarget: 
+    title: "\uD6C4\uBC29 \uC7AC\uC6D0 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 9500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 9500
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 207
+    id: defeat_boss_4_step207
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC7AC\uCC28\uB2E8"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 510
+  - order: 208
+    id: draw_skill_15_step208
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 15\uD68C \uBF51\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 230
+  - order: 209
+    id: enhance_unit_6_step209
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC815\uC608\uD654 \uBC18\uBCF5"
+    description: "\uC720\uB2DB \uAC15\uD654 6\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 285
+  - order: 210
+    id: enhance_drone_10_step210
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uB825 \uC720\uC9C0"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 285
+  - order: 211
+    id: kill_enemies_240_step211
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uCD08\uC9C0 \uC555\uBC15"
+    description: "\uC801 240\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 240
+    rewardCurrency: 0
+    rewardAmount: 34000
+  - order: 212
+    id: collect_weapons_1_step212
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uBCF4\uAD00 \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 26000
+  - order: 214
+    id: use_boss_ticket_4_step214
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC2EC\uCE35 \uC9C4\uC785 \uC791\uC804"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 4\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 0
+    rewardAmount: 19500
+  - order: 215
+    id: reach_stage_27_step215
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC7AC\uC815\uBE44"
+    description: "\uC2A4\uD14C\uC774\uC9C0 27\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 27
+    rewardCurrency: 1
+    rewardAmount: 365
+  - order: 216
+    id: collect_credits_10000_step216
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC791\uC804 \uC790\uAE08 \uBCF4\uCDA9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 10000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 10000
+    rewardCurrency: 1
+    rewardAmount: 340
+  - order: 217
+    id: defeat_boss_4_step217
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC15\uC801 \uC5F0\uC18D \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 520
+  - order: 218
+    id: defeat_boss_4_step218
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC694\uC0C8 \uBCF4\uC2A4 \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 4\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 1
+    rewardAmount: 255
+  - order: 219
+    id: enhance_weapon_20_step219
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uC138\uBD80 \uC870\uC815"
+    description: "\uBB34\uAE30\uB97C 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 220
+    id: reach_level_51_step220
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC220 \uD1B5\uC81C\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 51\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 51
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 221
+    id: kill_enemies_250_step221
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC704\uD611 \uCC28\uB2E8"
+    description: "\uC801 250\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 250
+    rewardCurrency: 0
+    rewardAmount: 35000
+  - order: 222
+    id: draw_weapon_15_step222
+    conditionType: 11
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uC218\uAE09 \uD655\uB300"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uBF51\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 235
+  - order: 224
+    id: enhance_drone_10_step224
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC815\uBE44 \uB8E8\uD2F4"
+    description: "\uB4DC\uB860\uC744 10\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 225
+    id: reach_stage_28_step225
+    conditionType: 2
+    conditionTarget: 
+    title: "\uAC70\uC810 \uC5F0\uACB0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 28\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 28
+    rewardCurrency: 1
+    rewardAmount: 370
+  - order: 226
+    id: collect_credits_10500_step226
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uC790\uAE08 \uBCF4\uAC15"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 10500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 10500
+    rewardCurrency: 1
+    rewardAmount: 350
+  - order: 227
+    id: defeat_boss_5_step227
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC6B0\uB450\uBA38\uB9AC \uCD94\uC801"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 530
+  - order: 228
+    id: collect_weapons_1_step228
+    conditionType: 3
+    conditionTarget: 
+    title: "\uACE0\uAE09 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 27000
+  - order: 230
+    id: use_boss_ticket_4_step230
+    conditionType: 10
+    conditionTarget: 
+    title: "\uACE0\uB09C\uB3C4 \uC791\uC804 \uC9C4\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 4\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 0
+    rewardAmount: 20000
+  - order: 231
+    id: kill_enemies_260_step231
+    conditionType: 0
+    conditionTarget: 
+    title: "\uAD50\uC804 \uD655\uB300"
+    description: "\uC801 260\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 260
+    rewardCurrency: 0
+    rewardAmount: 36000
+  - order: 232
+    id: collect_credits_11000_step232
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC5ED \uC790\uAE08 \uC6B4\uC6A9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 11000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 11000
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 233
+    id: enhance_weapon_20_step233
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC804\uBC29 \uBB34\uC7A5 \uBCF4\uC815"
+    description: "\uBB34\uAE30\uB97C 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 315
+  - order: 234
+    id: reach_stage_29_step234
+    conditionType: 2
+    conditionTarget: 
+    title: "\uBC29\uC5B4\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 29\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 29
+    rewardCurrency: 1
+    rewardAmount: 375
+  - order: 235
+    id: reach_level_54_step235
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC791\uC804 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 54\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 54
+    rewardCurrency: 1
+    rewardAmount: 295
+  - order: 236
+    id: collect_credits_11500_step236
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBCF4\uAE09 \uC7AC\uC6D0 \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 11500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 11500
+    rewardCurrency: 1
+    rewardAmount: 360
+  - order: 237
+    id: defeat_boss_5_step237
+    conditionType: 14
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uC704\uD611 \uC81C\uAC70"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 540
+  - order: 238
+    id: draw_skill_15_step238
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 15\uD68C \uBF51\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 240
+  - order: 240
+    id: enhance_drone_15_step240
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC791\uC804 \uC801\uC751"
+    description: "\uB4DC\uB860\uC744 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 295
+  - order: 241
+    id: kill_enemies_280_step241
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC911\uC559 \uC18C\uD0D5"
+    description: "\uC801 280\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 280
+    rewardCurrency: 0
+    rewardAmount: 37000
+  - order: 242
+    id: collect_weapons_1_step242
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uBAA9\uB85D \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 28000
+  - order: 244
+    id: use_boss_ticket_4_step244
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC2EC\uCE35 \uC9C4\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 4\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 4
+    rewardCurrency: 0
+    rewardAmount: 20500
+  - order: 245
+    id: reach_stage_30_step245
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC791\uC804 \uACBD\uACC4 \uD655\uB300"
+    description: "\uC2A4\uD14C\uC774\uC9C0 30\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 380
+  - order: 246
+    id: collect_credits_12000_step246
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uC608\uC0B0 \uD655\uC7A5"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 12000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 12000
+    rewardCurrency: 1
+    rewardAmount: 370
+  - order: 247
+    id: defeat_boss_5_step247
+    conditionType: 14
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uC800\uC9C0\uC120"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 550
+  - order: 248
+    id: enhance_weapon_25_step248
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uAE30 \uC6B4\uC6A9 \uAC1C\uC120"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 265
+  - order: 249
+    id: enhance_weapon_25_step249
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC8FC\uB825 \uBB34\uAE30 \uAC31\uC2E0"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 250
+    id: reach_level_58_step250
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC870\uC728\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 58\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 58
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 251
+    id: kill_enemies_290_step251
+    conditionType: 0
+    conditionTarget: 
+    title: "\uCE68\uD22C \uC800\uC9C0"
+    description: "\uC801 290\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 290
+    rewardCurrency: 0
+    rewardAmount: 38000
+  - order: 252
+    id: draw_weapon_15_step252
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC7A5\uBE44 \uBCF4\uAE09 \uC21C\uD658"
+    description: "\uBB34\uAE30\uB97C 15\uD68C \uBF51\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 245
+  - order: 253
+    id: enhance_unit_7_step253
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC804\uD22C \uBD80\uB300 \uAC31\uC2E0"
+    description: "\uC720\uB2DB \uAC15\uD654 7\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 254
+    id: enhance_drone_15_step254
+    conditionType: 9
+    conditionTarget: 
+    title: "\uBB34\uC778 \uBD80\uB300 \uAC31\uC2E0"
+    description: "\uB4DC\uB860\uC744 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 255
+    id: reach_stage_31_step255
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC9C4\uB85C \uC555\uBC15"
+    description: "\uC2A4\uD14C\uC774\uC9C0 31\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 31
+    rewardCurrency: 1
+    rewardAmount: 385
+  - order: 256
+    id: collect_credits_12500_step256
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC791\uC804\uBE44 \uB204\uC801"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 12500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 12500
+    rewardCurrency: 1
+    rewardAmount: 380
+  - order: 257
+    id: defeat_boss_5_step257
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC6B0\uC138 \uD655\uBCF4"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 560
+  - order: 258
+    id: collect_weapons_1_step258
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC911\uC7A5\uBE44 \uBAA9\uB85D \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 29000
+  - order: 260
+    id: use_boss_ticket_5_step260
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uC784\uBB34 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 5\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 0
+    rewardAmount: 21000
+  - order: 261
+    id: kill_enemies_300_step261
+    conditionType: 0
+    conditionTarget: 
+    title: "\uACF5\uC138 \uCC28\uB2E8"
+    description: "\uC801 300\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 300
+    rewardCurrency: 0
+    rewardAmount: 39000
+  - order: 262
+    id: draw_weapon_20_step262
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC804\uC120 \uC7A5\uBE44 \uD22C\uC785"
+    description: "\uBB34\uAE30\uB97C 20\uD68C \uBF51\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 263
+    id: enhance_weapon_25_step263
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uAE30\uC900 \uC0C1\uD5A5"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 325
+  - order: 264
+    id: reach_stage_33_step264
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC9C0\uC5ED \uD1B5\uC81C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 33\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 33
+    rewardCurrency: 1
+    rewardAmount: 390
+  - order: 265
+    id: reach_level_61_step265
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC0C1\uAE09 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 61\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 61
+    rewardCurrency: 1
+    rewardAmount: 305
+  - order: 266
+    id: collect_credits_13000_step266
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC790\uAE08 \uC6B4\uC6A9 \uC548\uC815\uD654"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 13000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 13000
+    rewardCurrency: 1
+    rewardAmount: 390
+  - order: 267
+    id: defeat_boss_5_step267
+    conditionType: 14
+    conditionTarget: 
+    title: "\uACB0\uC804 \uBCF4\uC2A4\uC804"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 570
+  - order: 268
+    id: draw_skill_20_step268
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 20\uD68C \uBF51\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 250
+  - order: 270
+    id: enhance_drone_15_step270
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uD22C\uB825 \uBCF4\uC815"
+    description: "\uB4DC\uB860\uC744 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 305
+  - order: 271
+    id: kill_enemies_320_step271
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC794\uC874 \uC138\uB825 \uC81C\uAC70"
+    description: "\uC801 320\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 320
+    rewardCurrency: 0
+    rewardAmount: 40000
+  - order: 272
+    id: collect_weapons_1_step272
+    conditionType: 3
+    conditionTarget: 
+    title: "\uD76C\uADC0 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 30000
+  - order: 274
+    id: use_boss_ticket_5_step274
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC5F0\uC18D \uC9C4\uC785 \uC2EC\uD654"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 5\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 0
+    rewardAmount: 21500
+  - order: 275
+    id: reach_stage_34_step275
+    conditionType: 2
+    conditionTarget: 
+    title: "\uACF5\uC138\uC120 \uC720\uC9C0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 34\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 34
+    rewardCurrency: 1
+    rewardAmount: 395
+  - order: 276
+    id: collect_credits_13500_step276
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC7A5\uAE30 \uAD70\uC218 \uC720\uC9C0"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 13500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 13500
+    rewardCurrency: 1
+    rewardAmount: 400
+  - order: 277
+    id: defeat_boss_5_step277
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC9C0\uD718\uCCB4 \uC81C\uAC70"
+    description: "\uBCF4\uC2A4\uB97C 5\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 1
+    rewardAmount: 580
+  - order: 278
+    id: use_boss_ticket_5_step278
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uAD6C\uC5ED \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 5\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 5
+    rewardCurrency: 0
+    rewardAmount: 275
+  - order: 279
+    id: enhance_weapon_25_step279
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uAC1C\uB7C9 \uC9C0\uC18D"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 280
+    id: reach_level_64_step280
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC5ED \uD310\uB2E8\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 64\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 64
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 281
+    id: kill_enemies_330_step281
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uC120 \uCCAD\uC18C"
+    description: "\uC801 330\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 330
+    rewardCurrency: 0
+    rewardAmount: 41000
+  - order: 282
+    id: draw_weapon_20_step282
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC804\uC120 \uBB34\uAE30 \uBCF4\uAE09"
+    description: "\uBB34\uAE30\uB97C 20\uD68C \uBF51\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 255
+  - order: 284
+    id: enhance_drone_15_step284
+    conditionType: 9
+    conditionTarget: 
+    title: "\uC815\uC608 \uB4DC\uB860 \uBCF4\uC815"
+    description: "\uB4DC\uB860\uC744 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 285
+    id: reach_stage_35_step285
+    conditionType: 2
+    conditionTarget: 
+    title: "\uD655\uC7A5 \uACBD\uB85C \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 35\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 35
+    rewardCurrency: 1
+    rewardAmount: 400
+  - order: 286
+    id: collect_credits_14000_step286
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBCF4\uAE09 \uC790\uAE08 \uC720\uC9C0"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 14000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 14000
+    rewardCurrency: 1
+    rewardAmount: 410
+  - order: 287
+    id: defeat_boss_6_step287
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC15\uC801 \uC18C\uBAA8\uC804"
+    description: "\uBCF4\uC2A4\uB97C 6\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 590
+  - order: 288
+    id: collect_weapons_1_step288
+    conditionType: 3
+    conditionTarget: 
+    title: "\uC7A5\uBE44 \uC218\uC9D1 \uC9C4\uCC99"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 31000
+  - order: 290
+    id: use_boss_ticket_6_step290
+    conditionType: 10
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uCD94\uC801 \uC9C0\uC18D"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 6\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 0
+    rewardAmount: 22000
+  - order: 291
+    id: kill_enemies_340_step291
+    conditionType: 0
+    conditionTarget: 
+    title: "\uAD11\uC5ED \uC81C\uC555"
+    description: "\uC801 340\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 340
+    rewardCurrency: 0
+    rewardAmount: 42000
+  - order: 292
+    id: enhance_unit_8_step292
+    conditionType: 8
+    conditionTarget: 
+    title: "\uBD80\uB300 \uC131\uB2A5 \uAC1C\uC120"
+    description: "\uC720\uB2DB \uAC15\uD654 8\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 293
+    id: enhance_weapon_30_step293
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uC131\uB2A5 \uC0C1\uD5A5"
+    description: "\uBB34\uAE30\uB97C 30\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 335
+  - order: 294
+    id: reach_stage_36_step294
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC804\uAC1C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 36\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 36
+    rewardCurrency: 1
+    rewardAmount: 405
+  - order: 295
+    id: reach_level_67_step295
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC0AC\uB839 \uCCB4\uACC4 \uAC15\uD654"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 67\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 67
+    rewardCurrency: 1
+    rewardAmount: 315
+  - order: 296
+    id: collect_credits_14500_step296
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uC21C\uD658 \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 14500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 14500
+    rewardCurrency: 1
+    rewardAmount: 420
+  - order: 297
+    id: defeat_boss_6_step297
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC815\uC608 \uBCF4\uC2A4\uC804"
+    description: "\uBCF4\uC2A4\uB97C 6\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 600
+  - order: 298
+    id: draw_skill_20_step298
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 20\uD68C \uBF51\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 260
+  - order: 300
+    id: enhance_drone_15_step300
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC131\uB2A5 \uAC1C\uC120"
+    description: "\uB4DC\uB860\uC744 15\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 15
+    rewardCurrency: 1
+    rewardAmount: 315
+  - order: 301
+    id: kill_enemies_360_step301
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC704\uD611 \uBC00\uB3C4 \uAC10\uC18C"
+    description: "\uC801 360\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 360
+    rewardCurrency: 0
+    rewardAmount: 43000
+  - order: 302
+    id: collect_weapons_1_step302
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uC6B4\uC6A9 \uD3ED \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 32000
+  - order: 304
+    id: use_boss_ticket_6_step304
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD611 \uC9C0\uC5ED \uC7AC\uC9C4\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 6\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 0
+    rewardAmount: 22500
+  - order: 305
+    id: reach_stage_37_step305
+    conditionType: 2
+    conditionTarget: 
+    title: "\uCD5C\uC804\uC120 \uC720\uC9C0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 37\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 37
+    rewardCurrency: 1
+    rewardAmount: 410
+  - order: 306
+    id: collect_credits_15000_step306
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC5ED \uC790\uC6D0 \uCD95\uC801"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 15000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 15000
+    rewardCurrency: 1
+    rewardAmount: 430
+  - order: 307
+    id: defeat_boss_6_step307
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC9C0\uD718\uB9DD \uCC28\uB2E8"
+    description: "\uBCF4\uC2A4\uB97C 6\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 610
+  - order: 308
+    id: enhance_drone_20_step308
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC6B4\uC6A9 \uAC15\uD654"
+    description: "\uB4DC\uB860\uC744 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 285
+  - order: 309
+    id: enhance_weapon_30_step309
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC7A5\uAE30 \uD654\uB825 \uBCF4\uC815"
+    description: "\uBB34\uAE30\uB97C 30\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 340
+  - order: 310
+    id: reach_level_70_step310
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC220 \uC219\uB828 \uC2EC\uD654"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 70\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 70
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 311
+    id: kill_enemies_370_step311
+    conditionType: 0
+    conditionTarget: 
+    title: "\uCD5C\uC804\uC120 \uC815\uB9AC"
+    description: "\uC801 370\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 370
+    rewardCurrency: 0
+    rewardAmount: 44000
+  - order: 312
+    id: draw_weapon_25_step312
+    conditionType: 11
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uBCF4\uAE09 \uC548\uC815\uD654"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uBF51\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 265
+  - order: 314
+    id: enhance_drone_20_step314
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uAC1C\uB7C9 \uC9C0\uC18D"
+    description: "\uB4DC\uB860\uC744 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 320
+  - order: 315
+    id: reach_stage_38_step315
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC7A5\uAE30 \uC804\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 38\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 38
+    rewardCurrency: 1
+    rewardAmount: 415
+  - order: 316
+    id: collect_credits_15500_step316
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC7A5\uAE30 \uC791\uC804 \uC790\uAE08"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 15500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 15500
+    rewardCurrency: 1
+    rewardAmount: 440
+  - order: 317
+    id: defeat_boss_6_step317
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC5F0\uC18D \uAC15\uC801 \uACA9\uD1F4"
+    description: "\uBCF4\uC2A4\uB97C 6\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 620
+  - order: 318
+    id: collect_weapons_1_step318
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uC120\uD0DD\uC9C0 \uD655\uB300"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 33000
+  - order: 320
+    id: use_boss_ticket_6_step320
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC704\uD5D8 \uB300\uC751 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 6\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 0
+    rewardAmount: 23000
+  - order: 321
+    id: kill_enemies_380_step321
+    conditionType: 0
+    conditionTarget: 
+    title: "\uACB0\uC804\uC9C0 \uC18C\uD0D5"
+    description: "\uC801 380\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 380
+    rewardCurrency: 0
+    rewardAmount: 45000
+  - order: 322
+    id: reach_stage_40_step322
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC9C4\uAD70\uB85C \uD655\uBCF4"
+    description: "\uC2A4\uD14C\uC774\uC9C0 40\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 40
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 323
+    id: enhance_weapon_30_step323
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uC644\uC131\uB3C4 \uD5A5\uC0C1"
+    description: "\uBB34\uAE30\uB97C 30\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 345
+  - order: 324
+    id: reach_stage_41_step324
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC7AC\uC815\uBE44"
+    description: "\uC2A4\uD14C\uC774\uC9C0 41\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 41
+    rewardCurrency: 1
+    rewardAmount: 420
+  - order: 325
+    id: reach_level_74_step325
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC5ED \uD1B5\uC194\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 74\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 74
+    rewardCurrency: 1
+    rewardAmount: 325
+  - order: 326
+    id: collect_credits_16000_step326
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218\uB9DD \uC548\uC815\uD654"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 16000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 16000
+    rewardCurrency: 1
+    rewardAmount: 450
+  - order: 327
+    id: defeat_boss_6_step327
+    conditionType: 14
+    conditionTarget: 
+    title: "\uACB0\uC804 \uC704\uD611 \uC81C\uAC70"
+    description: "\uBCF4\uC2A4\uB97C 6\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 6
+    rewardCurrency: 1
+    rewardAmount: 630
+  - order: 328
+    id: draw_skill_25_step328
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 25\uD68C \uBF51\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 270
+  - order: 329
+    id: enhance_unit_9_step329
+    conditionType: 8
+    conditionTarget: 
+    title: "\uBD80\uB300 \uAC1C\uB7C9 \uC9C0\uC18D"
+    description: "\uC720\uB2DB \uAC15\uD654 9\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 9
+    rewardCurrency: 1
+    rewardAmount: 325
+  - order: 330
+    id: enhance_drone_20_step330
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uCD5C\uC885 \uC870\uC728"
+    description: "\uB4DC\uB860\uC744 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 325
+  - order: 331
+    id: kill_enemies_400_step331
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC794\uB2F9 \uC18C\uD0D5"
+    description: "\uC801 400\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 400
+    rewardCurrency: 0
+    rewardAmount: 46000
+  - order: 332
+    id: collect_weapons_1_step332
+    conditionType: 3
+    conditionTarget: 
+    title: "\uACE0\uC131\uB2A5 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 34000
+  - order: 334
+    id: use_boss_ticket_7_step334
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC2EC\uCE35 \uBCF4\uC2A4 \uC791\uC804"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 7\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 0
+    rewardAmount: 23500
+  - order: 335
+    id: reach_stage_42_step335
+    conditionType: 2
+    conditionTarget: 
+    title: "\uAC70\uC810 \uC5F0\uACB0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 42\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 42
+    rewardCurrency: 1
+    rewardAmount: 425
+  - order: 336
+    id: collect_credits_16500_step336
+    conditionType: 5
+    conditionTarget: 
+    title: "\uB300\uD615 \uC791\uC804\uBE44 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 16500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 16500
+    rewardCurrency: 1
+    rewardAmount: 460
+  - order: 337
+    id: defeat_boss_7_step337
+    conditionType: 14
+    conditionTarget: 
+    title: "\uACE0\uB09C\uB3C4 \uC704\uD611 \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 640
+  - order: 338
+    id: kill_enemies_410_step338
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC678\uACFD \uC815\uB9AC"
+    description: "\uC801 410\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 410
+    rewardCurrency: 0
+    rewardAmount: 295
+  - order: 339
+    id: enhance_weapon_35_step339
+    conditionType: 7
+    conditionTarget: 
+    title: "\uCC9C\uC624\uBC31 \uBB34\uC7A5 \uAC15\uD654"
+    description: "\uBB34\uAE30\uB97C 35\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 35
+    rewardCurrency: 1
+    rewardAmount: 350
+  - order: 340
+    id: reach_level_77_step340
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC7A5\uC758 \uB300\uAC00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 77\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 77
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 341
+    id: kill_enemies_430_step341
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC804\uCD08\uC9C0 \uC555\uBC15"
+    description: "\uC801 430\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 430
+    rewardCurrency: 0
+    rewardAmount: 47000
+  - order: 342
+    id: draw_weapon_25_step342
+    conditionType: 11
+    conditionTarget: 
+    title: "\uC804\uB7B5 \uC7A5\uBE44 \uBCF4\uAE09"
+    description: "\uBB34\uAE30\uB97C 25\uD68C \uBF51\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 275
+  - order: 344
+    id: enhance_drone_20_step344
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC804\uB825 \uC720\uC9C0"
+    description: "\uB4DC\uB860\uC744 20\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 20
+    rewardCurrency: 1
+    rewardAmount: 330
+  - order: 345
+    id: reach_stage_43_step345
+    conditionType: 2
+    conditionTarget: 
+    title: "\uBC29\uC5B4\uC120 \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 43\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 43
+    rewardCurrency: 1
+    rewardAmount: 430
+  - order: 346
+    id: collect_credits_17000_step346
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uBE44\uCD95 \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 17000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 17000
+    rewardCurrency: 1
+    rewardAmount: 470
+  - order: 347
+    id: defeat_boss_7_step347
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC885\uACB0 \uC900\uBE44"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 650
+  - order: 348
+    id: collect_weapons_1_step348
+    conditionType: 3
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uC7A5\uBE44 \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 35000
+  - order: 350
+    id: use_boss_ticket_7_step350
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC2EC\uCE35 \uBC18\uBCF5"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 7\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 0
+    rewardAmount: 24000
+  - order: 351
+    id: kill_enemies_440_step351
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC704\uD611 \uCC28\uB2E8"
+    description: "\uC801 440\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 440
+    rewardCurrency: 0
+    rewardAmount: 48000
+  - order: 352
+    id: defeat_boss_7_step352
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC704\uD611 \uC7AC\uCC28\uB2E8"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 300
+  - order: 353
+    id: enhance_weapon_35_step353
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825\uB9DD \uC548\uC815\uD654"
+    description: "\uBB34\uAE30\uB97C 35\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 35
+    rewardCurrency: 1
+    rewardAmount: 355
+  - order: 354
+    id: reach_stage_44_step354
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC791\uC804 \uACBD\uACC4 \uD655\uB300"
+    description: "\uC2A4\uD14C\uC774\uC9C0 44\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 44
+    rewardCurrency: 1
+    rewardAmount: 435
+  - order: 355
+    id: reach_level_80_step355
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC219\uB828 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 80\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 80
+    rewardCurrency: 1
+    rewardAmount: 335
+  - order: 356
+    id: collect_credits_17500_step356
+    conditionType: 5
+    conditionTarget: 
+    title: "\uCD5C\uC885 \uBCF4\uAE09 \uAE30\uBC18"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 17500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 17500
+    rewardCurrency: 1
+    rewardAmount: 480
+  - order: 357
+    id: defeat_boss_7_step357
+    conditionType: 14
+    conditionTarget: 
+    title: "\uAC15\uC801 \uC5F0\uC18D \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 660
+  - order: 358
+    id: draw_skill_25_step358
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 25\uD68C \uBF51\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 280
+  - order: 360
+    id: enhance_drone_25_step360
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC815\uBE44 \uB8E8\uD2F4"
+    description: "\uB4DC\uB860\uC744 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 335
+  - order: 361
+    id: kill_enemies_460_step361
+    conditionType: 0
+    conditionTarget: 
+    title: "\uAD50\uC804 \uD655\uB300"
+    description: "\uC801 460\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 460
+    rewardCurrency: 0
+    rewardAmount: 49000
+  - order: 362
+    id: collect_weapons_1_step362
+    conditionType: 3
+    conditionTarget: 
+    title: "\uCE60\uC2ED \uC885 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 36000
+  - order: 364
+    id: use_boss_ticket_7_step364
+    conditionType: 10
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uB300\uC751 \uAC15\uD654"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 7\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 0
+    rewardAmount: 24500
+  - order: 365
+    id: reach_stage_45_step365
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC9C4\uB85C \uC555\uBC15"
+    description: "\uC2A4\uD14C\uC774\uC9C0 45\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 45
+    rewardCurrency: 1
+    rewardAmount: 440
+  - order: 366
+    id: collect_credits_18000_step366
+    conditionType: 5
+    conditionTarget: 
+    title: "\uD6C4\uBC29 \uC7AC\uC6D0 \uD655\uBCF4"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 18000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 18000
+    rewardCurrency: 1
+    rewardAmount: 490
+  - order: 367
+    id: defeat_boss_7_step367
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC694\uC0C8 \uBCF4\uC2A4 \uACA9\uD30C"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 670
+  - order: 368
+    id: collect_credits_18500_step368
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC791\uC804 \uC790\uAE08 \uBCF4\uCDA9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 18500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 18500
+    rewardCurrency: 1
+    rewardAmount: 305
+  - order: 369
+    id: enhance_weapon_35_step369
+    conditionType: 7
+    conditionTarget: 
+    title: "\uBB34\uC7A5 \uCD9C\uB825 \uC870\uC815"
+    description: "\uBB34\uAE30\uB97C 35\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 35
+    rewardCurrency: 1
+    rewardAmount: 360
+  - order: 370
+    id: reach_level_83_step370
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC220 \uD1B5\uC81C\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 83\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 83
+    rewardCurrency: 1
+    rewardAmount: 340
+  - order: 371
+    id: kill_enemies_470_step371
+    conditionType: 0
+    conditionTarget: 
+    title: "\uC911\uC559 \uC18C\uD0D5"
+    description: "\uC801 470\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 470
+    rewardCurrency: 0
+    rewardAmount: 50000
+  - order: 372
+    id: draw_weapon_30_step372
+    conditionType: 11
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uC218\uAE09 \uD655\uB300"
+    description: "\uBB34\uAE30\uB97C 30\uD68C \uBF51\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 285
+  - order: 374
+    id: enhance_drone_25_step374
+    conditionType: 9
+    conditionTarget: 
+    title: "\uB4DC\uB860 \uC791\uC804 \uC801\uC751"
+    description: "\uB4DC\uB860\uC744 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 340
+  - order: 375
+    id: reach_stage_47_step375
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC9C0\uC5ED \uD1B5\uC81C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 47\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 47
+    rewardCurrency: 1
+    rewardAmount: 445
+  - order: 376
+    id: collect_credits_19000_step376
+    conditionType: 5
+    conditionTarget: 
+    title: "\uAD70\uC218 \uC790\uAE08 \uBCF4\uAC15"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 19000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 19000
+    rewardCurrency: 1
+    rewardAmount: 500
+  - order: 377
+    id: defeat_boss_7_step377
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC6B0\uB450\uBA38\uB9AC \uCD94\uC801"
+    description: "\uBCF4\uC2A4\uB97C 7\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 7
+    rewardCurrency: 1
+    rewardAmount: 680
+  - order: 378
+    id: collect_weapons_1_step378
+    conditionType: 3
+    conditionTarget: 
+    title: "\uBB34\uAE30 \uBCF4\uAD00 \uD655\uC7A5"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 37000
+  - order: 380
+    id: use_boss_ticket_8_step380
+    conditionType: 10
+    conditionTarget: 
+    title: "\uC2EC\uCE35 \uC9C4\uC785 \uC791\uC804"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 8\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 0
+    rewardAmount: 25000
+  - order: 381
+    id: kill_enemies_490_step381
+    conditionType: 0
+    conditionTarget: 
+    title: "\uCE68\uD22C \uC800\uC9C0"
+    description: "\uC801 490\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 490
+    rewardCurrency: 0
+    rewardAmount: 51000
+  - order: 382
+    id: enhance_weapon_40_step382
+    conditionType: 7
+    conditionTarget: 
+    title: "\uD654\uB825 \uC138\uBD80 \uC870\uC815"
+    description: "\uBB34\uAE30\uB97C 40\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 40
+    rewardCurrency: 1
+    rewardAmount: 310
+  - order: 383
+    id: enhance_weapon_40_step383
+    conditionType: 7
+    conditionTarget: 
+    title: "\uC804\uBC29 \uBB34\uC7A5 \uBCF4\uC815"
+    description: "\uBB34\uAE30\uB97C 40\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 40
+    rewardCurrency: 1
+    rewardAmount: 365
+  - order: 384
+    id: reach_stage_48_step384
+    conditionType: 2
+    conditionTarget: 
+    title: "\uACF5\uC138\uC120 \uC720\uC9C0"
+    description: "\uC2A4\uD14C\uC774\uC9C0 48\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 48
+    rewardCurrency: 1
+    rewardAmount: 450
+  - order: 385
+    id: reach_level_87_step385
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC791\uC804 \uC9C0\uD718\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 87\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 87
+    rewardCurrency: 1
+    rewardAmount: 345
+  - order: 386
+    id: collect_credits_19500_step386
+    conditionType: 5
+    conditionTarget: 
+    title: "\uC804\uC5ED \uC790\uAE08 \uC6B4\uC6A9"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 19500\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 19500
+    rewardCurrency: 1
+    rewardAmount: 510
+  - order: 387
+    id: defeat_boss_8_step387
+    conditionType: 14
+    conditionTarget: 
+    title: "\uD2B9\uC218 \uC704\uD611 \uC81C\uAC70"
+    description: "\uBCF4\uC2A4\uB97C 8\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 690
+  - order: 388
+    id: draw_skill_30_step388
+    conditionType: 12
+    conditionTarget: 
+    title: "\uC2A4\uD0AC \uBCF4\uAE09 \uC791\uC804"
+    description: "\uC2A4\uD0AC\uC744 30\uD68C \uBF51\uAE30"
+    targetAmount: 30
+    rewardCurrency: 1
+    rewardAmount: 290
+  - order: 389
+    id: enhance_unit_10_step389
+    conditionType: 8
+    conditionTarget: 
+    title: "\uC720\uB2DB \uC791\uC804 \uC801\uC751"
+    description: "\uC720\uB2DB \uAC15\uD654 10\uB2E8\uACC4\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 10
+    rewardCurrency: 1
+    rewardAmount: 345
+  - order: 390
+    id: enhance_drone_25_step390
+    conditionType: 9
+    conditionTarget: 
+    title: "\uBB34\uC778 \uBD80\uB300 \uAC31\uC2E0"
+    description: "\uB4DC\uB860\uC744 25\uD68C \uAC15\uD654\uD558\uAE30"
+    targetAmount: 25
+    rewardCurrency: 1
+    rewardAmount: 345
+  - order: 391
+    id: kill_enemies_500_step391
+    conditionType: 0
+    conditionTarget: 
+    title: "\uACF5\uC138 \uCC28\uB2E8"
+    description: "\uC801 500\uB9C8\uB9AC\uB97C \uCC98\uCE58\uD558\uAE30"
+    targetAmount: 500
+    rewardCurrency: 0
+    rewardAmount: 52000
+  - order: 392
+    id: collect_weapons_1_step392
+    conditionType: 3
+    conditionTarget: 
+    title: "\uACE0\uAE09 \uBB34\uC7A5 \uD655\uBCF4"
+    description: "\uBB34\uAE30\uB97C 1\uD68C \uBF51\uAE30"
+    targetAmount: 1
+    rewardCurrency: 0
+    rewardAmount: 38000
+  - order: 394
+    id: use_boss_ticket_8_step394
+    conditionType: 10
+    conditionTarget: 
+    title: "\uACE0\uB09C\uB3C4 \uC791\uC804 \uC9C4\uC785"
+    description: "\uBCF4\uC2A4 \uC9C4\uC785 \uD2F0\uCF13\uC744 8\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 0
+    rewardAmount: 25500
+  - order: 395
+    id: reach_stage_49_step395
+    conditionType: 2
+    conditionTarget: 
+    title: "\uD655\uC7A5 \uACBD\uB85C \uB3CC\uD30C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 49\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 49
+    rewardCurrency: 1
+    rewardAmount: 455
+  - order: 396
+    id: collect_credits_20000_step396
+    conditionType: 5
+    conditionTarget: 
+    title: "\uBCF4\uAE09 \uC7AC\uC6D0 \uD655\uB300"
+    description: "\uC815\uC81C\uC18C \uD06C\uB808\uB527 20000\uC744 \uC218\uAE09\uD558\uAE30"
+    targetAmount: 20000
+    rewardCurrency: 1
+    rewardAmount: 520
+  - order: 397
+    id: defeat_boss_8_step397
+    conditionType: 14
+    conditionTarget: 
+    title: "\uBCF4\uC2A4 \uC800\uC9C0\uC120"
+    description: "\uBCF4\uC2A4\uB97C 8\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 700
+  - order: 398
+    id: reach_stage_50_step398
+    conditionType: 2
+    conditionTarget: 
+    title: "\uC804\uC120 \uC804\uAC1C"
+    description: "\uC2A4\uD14C\uC774\uC9C0 50\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 50
+    rewardCurrency: 1
+    rewardAmount: 315
+  - order: 399
+    id: reach_level_90_step399
+    conditionType: 1
+    conditionTarget: 
+    title: "\uC804\uC7A5 \uC870\uC728\uAD00"
+    description: "\uC9C0\uD718\uAD00 \uB808\uBCA8 90\uC5D0 \uB3C4\uB2EC\uD558\uAE30"
+    targetAmount: 90
+    rewardCurrency: 1
+    rewardAmount: 350
+  - order: 400
+    id: defeat_boss_8_step400
+    conditionType: 14
+    conditionTarget: 
+    title: "\uC6B0\uC138 \uD655\uBCF4"
+    description: "\uBCF4\uC2A4\uB97C 8\uD68C \uACA9\uD1F4\uD558\uAE30"
+    targetAmount: 8
+    rewardCurrency: 1
+    rewardAmount: 750

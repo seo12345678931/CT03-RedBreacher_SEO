@@ -1,0 +1,4 @@
+id,displayName,icon,slot,commonMainValue,rareMainValue,epicMainValue,legendaryMainValue,commonSalePrice,rareSalePrice,epicSalePrice,legendarySalePrice
+part_armor_default,전술 장갑,,Armor,0.05,0.1,0.2,0.3,50,200,800,2400
+part_engine_default,고속 엔진,,Engine,0.03,0.06,0.12,0.18,50,200,800,2400
+part_chip_default,화력 칩,,Chip,0.05,0.1,0.2,0.3,50,200,800,2400

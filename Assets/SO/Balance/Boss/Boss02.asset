@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f20b74b75695450a81bb73172856bd0, type: 3}
+  m_Name: Boss02
+  m_EditorClassIdentifier: Assembly-CSharp::BossEnemyConfig
+  id: 02
+  displayName: "\uBA54\uAC00\uD3EC \uC804\uCC28"
+  enemyPrefab: {fileID: 5508998916971657268, guid: 8f79bf266866e9746a0e4e52e7b913ed, type: 3}
+  maxHealth: 10000
+  moveSpeed: 0.95
+  stopDistance: 1.1
+  contactDamage: 8
+  contactInterval: 1
+  experienceReward: 15
+  creditReward: 2600
+  coreCrystalReward: 26
+  partDropChance: 0.08
+  deathExplosionEffectPrefab: {fileID: 1320533090949476, guid: f20077a0be0f3fa4495d97be6faa09bc, type: 3}
+  deathExplosionCleanupDelay: 0.6
+  deathExplosionOffset: {x: 0, y: 0, z: 0}
+  deathExplosionScale: 2
+  hitSounds:
+  - {fileID: 8300000, guid: 3a73663132fdbbb4ca6abfc111e5d7f3, type: 3}
+  - {fileID: 8300000, guid: 8ddda2ddc1a1fb14986c8f45c96fd4d8, type: 3}
+  - {fileID: 8300000, guid: 7801cb71e186218409a255b415aa6def, type: 3}
+  - {fileID: 8300000, guid: b78121d6f010ab446886ef6c9d149510, type: 3}
+  unlockStage: 11
+  unlockPlayerLevel: 10
+  portrait: {fileID: 2046642088, guid: cbce280544bf04854b6556d5e5eb911b, type: 3}
+  rangedAttackRange: 7
+  rangedAttackDamage: 150
+  rangedAttackInterval: 1.8
+  projectileSpeed: 7
+  projectileLifetime: 3.5
+  projectileCollisionRadius: 0.3
+  firePointNamePrefix: FirePoint
+  projectilesPerFirePoint: 7
+  spreadAngle: 75
+  fireEffectPrefab: {fileID: 1936875904811050, guid: 13b7c7d5b11e55f4c99d0dd318cfc704, type: 3}
+  projectileEffectPrefab: {fileID: 1787684039401618, guid: 83a4e6d5a5abe884bad2a55ba29c7fca, type: 3}
+  hitEffectPrefab: {fileID: 1598860718775302, guid: 607071240cd7cde4d8ad70e485d70f28, type: 3}
+  effectCleanupDelay: 2
+  fireSfx: {fileID: 8300000, guid: 098aa5b1f6e77134b9972e7bd19094e0, type: 3}
+  laserCooldown: 7
+  laserDamage: 160
+  laserLength: 14
+  laserWidth: 1.8
+  laserWarningDuration: 1.8
+  laserActiveDuration: 0.3
+  laserFirePointName: LaserFirePoint
+  laserBeamEffectPrefab: {fileID: 1657981230171060, guid: 6cf36a334a0e5754ea36fca06014b86a, type: 3}
+  laserProjectileSpeed: 18
+  laserProjectileScale: 2.4
+  laserBeamRotationOffset: {x: 0, y: 0, z: 0}
+  laserLineMaterial: {fileID: -876546973899608171, guid: f090c02c15e42bf41ba8388b37b3c21e, type: 3}
+  laserWarningColor: {r: 1, g: 0.45, b: 0.05, a: 0.55}
+  laserActiveColor: {r: 1, g: 0.25, b: 0, a: 1}
+  laserWarningSfx: {fileID: 8300000, guid: 7d99a0daecc65443f84b36e53a73eb6e, type: 3}
+  laserLunchSfx: {fileID: 8300000, guid: 2e51f436d03a61742990be0cff1df63d, type: 3}
+  enrageStartSeconds: 0
+  enrageRampPerSecond: 0.04
+  enrageMaxMultiplier: 3
+  enableProjectileDodge: 0
+  dodgeDetectionRadius: 3
+  dodgeDistance: 1.5
+  dodgeCooldown: 3.5
+  dodgeSpeed: 4
+  dodgePredictionTime: 0.7
+  dodgeCollisionRadius: 0.85
+  dodgeMinPlayerDistance: 2.25
+  dodgeCheckInterval: 0.12
+  dodgeObstacleMask:
+    serializedVersion: 2
+    m_Bits: 128
+  deathSoundsSfx:
+  - {fileID: 8300000, guid: d35b2abc65d604044bff93d4fd0cbf60, type: 3}
+  - {fileID: 8300000, guid: e4cb7433e5dc95b4fa5b4e80070786c4, type: 3}
+  - {fileID: 8300000, guid: aec2baab8f9d95448946cfed420fa9cf, type: 3}
+  - {fileID: 8300000, guid: 0bfee504c1a54b14dadbeb6a4662fa81, type: 3}

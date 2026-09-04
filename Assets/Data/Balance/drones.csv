@@ -1,0 +1,13 @@
+﻿id,displayName,dronePrefab,projectileConfig,attackDamage,attackRange,attackInterval,fireAngleTolerance,rotationSpeed,targetMask,projectileSpeed,projectileLifetime,droneCount,followRadius,followSpeed,startAngle,angleStep,muzzleNamePrefix
+01,소형드론,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierLight1/SoldierLight1.prefab,Assets/SO/Balance/Weapons/Weapon_01.asset,3,5,1,5,360,0,20,2,1,1.2,8,180,45,FireMuzzle
+02,소형드론-E,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierLight2/SoldierLight2.prefab,Assets/SO/Balance/Weapons/Weapon_02.asset,4,5.2,0.95,5,360,0,20,2,1,1.2,8.2,180,45,FireMuzzle
+03,소형드론-EX,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierLight3/SoldierLight3.prefab,Assets/SO/Balance/Weapons/Weapon_03.asset,5,5.4,0.9,5,360,0,20,2,1,1.2,8.4,180,45,FireMuzzle
+04,컴팩트드론,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierMedium1/SoldierMedium1.prefab,Assets/SO/Balance/Weapons/Weapon_04.asset,6,5.6,0.85,5,360,0,20,2,2,1.3,8.6,180,45,FireMuzzle
+05,컴팩트드론-E,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierMedium2/SoldierMedium2.prefab,Assets/SO/Balance/Weapons/Weapon_05.asset,8,5.8,0.8,5,360,0,20,2,2,1.3,8.8,180,45,FireMuzzle
+06,컴팩트드론-EX,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierMedium3/SoldierMedium3.prefab,Assets/SO/Balance/Weapons/Weapon_06.asset,10,6,0.75,5,360,0,20,2,2,1.3,9,180,45,FireMuzzle
+07,중형드론,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierHeavy1/SoldierHeavy1.prefab,Assets/SO/Balance/Weapons/Weapon_07.asset,12,6.2,0.7,5,360,0,20,2,3,1.4,9.2,180,45,FireMuzzle
+08,중형드론-E,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierHeavy2/SoldierHeavy2.prefab,Assets/SO/Balance/Weapons/Weapon_08.asset,15,7,0.65,5,360,0,20,2,3,1.4,9.4,180,45,FireMuzzle
+09,중형드론-EX,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierHeavy3/SoldierHeavy3.prefab,Assets/SO/Balance/Weapons/Weapon_09.asset,18,6.6,0.6,5,360,0,20,2,3,1.4,9.6,180,45,FireMuzzle
+10,아머마린,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierHeavy4/SoldierHeavy4.prefab,Assets/SO/Balance/Weapons/Weapon_10.asset,22,9,0.5,5,360,0,20,2,4,1.5,10,180,45,FireMuzzle
+11,저거노트,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierHeavy5/SoldierHeavy5.prefab,Assets/SO/Balance/Weapons/Weapon_10.asset,25,7,0.5,5,360,0,20,2,4,1.5,10,180,45,FireMuzzle
+drone_default,기본 드론,Assets/External Assets/TopDownAssets/MilitaryPack/Sprites/Soldiers/SoldierLight1/SoldierLight1.prefab,Assets/SO/Balance/Weapons/Weapon_01.asset,3,5,1,5,240,0,20,2,1,1.2,8,180,45,FireMuzzle

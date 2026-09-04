@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9948735bb66634f4aaa563da18aeac04, type: 3}
+  m_Name: Skill_03
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkillConfig
+  id: 03
+  displayName: "\uBBF8\uC0AC\uC77C \uD130\uB81B"
+  icon: {fileID: 21300000, guid: bbd403d4773f76b45ade50e436a00ab5, type: 3}
+  rarity: 1
+  skillType: 2
+  description: "\uC13C\uD2B8\uB9AC(\uBBF8\uC0AC\uC77C)\r\n\r\n\uC720\uB3C4 \uBBF8\uC0AC\uC77C\uB85C
+    \uC801\uC744 \uCD94\uC801\uD574 \uAC15\uB825\uD55C \uBC94\uC704 \uD53C\uD574\uB97C
+    \uC900\uB2E4."
+  cooldown: 18
+  castRange: 8
+  minimumEnemyCount: 1
+  attackPowerMultiplier: 2.4
+  flatDamage: 0
+  canCritical: 1
+  effectRadius: 2.2
+  maxTargets: 20
+  knockbackForce: 1.5
+  maxLevel: 10
+  damagePercentPerLevel: 0.1
+  cooldownReductionPercentPerLevel: 0.03
+  maxCooldownReductionPercent: 0.5
+  countIncreaseLevelInterval: 4
+  bombCountIncreasePerInterval: 0
+  turretCountIncreasePerInterval: 1
+  maxLevelDuplicateCoreCrystalReward: 1
+  levelSkinStyles:
+  - collectionLevel: 1
+    bodyPaint: 0
+    chevronMark: 0
+  - collectionLevel: 2
+    bodyPaint: 0
+    chevronMark: 1
+  - collectionLevel: 3
+    bodyPaint: 1
+    chevronMark: 2
+  - collectionLevel: 4
+    bodyPaint: 2
+    chevronMark: 3
+  - collectionLevel: 5
+    bodyPaint: 3
+    chevronMark: 4
+  - collectionLevel: 6
+    bodyPaint: 4
+    chevronMark: 5
+  - collectionLevel: 7
+    bodyPaint: 5
+    chevronMark: 6
+  - collectionLevel: 8
+    bodyPaint: 6
+    chevronMark: 7
+  - collectionLevel: 9
+    bodyPaint: 7
+    chevronMark: 8
+  - collectionLevel: 10
+    bodyPaint: 8
+    chevronMark: 9
+  impactDelay: 0.5
+  warningEffectPrefab: {fileID: 0}
+  impactEffectPrefab: {fileID: 0}
+  effectCleanupDelay: 2
+  _airplanePrefab: {fileID: 0}
+  _airplaneSpeed: 15
+  _airplaneSpawnOffset: 15
+  _airplaneHeight: 6
+  _bombProjectilePrefab: {fileID: 0}
+  _bombEffectScale: 1
+  _bombCount: 1
+  _bombInterval: 0.15
+  _screenShakeDuration: 0.22
+  _screenShakeStrength: 0.4
+  _screenShakeFrequency: 1.5
+  _airplaneTakeOffSfx: {fileID: 0}
+  impactSfx: []
+  turretPrefab: {fileID: 0}
+  turretProjectileConfig: {fileID: 11400000, guid: 74fba0a59bdac460b88e300c14c8b741, type: 2}
+  turretDuration: 8
+  turretAttackInterval: 0.8
+  turretAttackRange: 6
+  turretRotationSpeed: 360
+  turretPlacementDistance: 1.5
+  turretFirePointName: FirePoint
+  turretFireSfx: {fileID: 0}
+  missileTurretPrefab: {fileID: 214164098778057125, guid: 8dc1caa0f7a72fe49ad89b03b03c5c9b, type: 3}
+  missileProjectilePrefab: {fileID: 1439816204641800, guid: 3d873118a8346a74bb1ea9ec62d17fd7, type: 3}
+  missileTurretDuration: 8
+  missileTurretAttackInterval: 1.2
+  missileTurretAttackRange: 7
+  missileTurretRotationSpeed: 240
+  missileTurretPlacementDistance: 1.8
+  missileExplosionRadius: 2.2
+  missileProjectileSpeed: 12
+  missileTurretFirePointName: FirePoint
+  missileImpactEffectPrefab: {fileID: 1098451438589226, guid: afa1163e40fd2904fbf38e4c00924127, type: 3}
+  missileTurretFireSfx: {fileID: 8300000, guid: 912873cbed9c0c3479e6a7d9adedd25c, type: 3}
+  stealthBomberPrefab: {fileID: 0}
+  stealthBomberSpeed: 24
+  stealthBomberTravelDistance: 18
+  stealthBomberHeight: 6
+  stealthBomberRows: 1
+  stealthBomberColumns: 3
+  stealthBomberSpacing: 2.2
+  stealthBomberBombInterval: 0.12
+  stealthBomberExplosionRadius: 2.5
+  stealthBomberShadowSprite: {fileID: 0}
+  stealthBomberShadowSize: 7
+  stealthBomberShadowDarkness: 0.55
+  attackHelicopterPrefab: {fileID: 0}
+  helicopterProjectileConfig: {fileID: 0}
+  helicopterRocketPrefab: {fileID: 0}
+  attackHelicopterDuration: 15
+  attackHelicopterAttackInterval: 0.8
+  attackHelicopterAttackRange: 7
+  attackHelicopterMoveSpeed: 5
+  attackHelicopterFollowOffset: 2.5
+  attackHelicopterMaxDistanceFromPlayer: 6
+  helicopterOpeningRocketCount: 2
+  helicopterRocketRadius: 2
+  helicopterRocketSpeed: 16
+  helicopterRotorName: Propeller
+  helicopterRotorSpeed: 900
+  helicopterRocketLunchSfx: {fileID: 0}
+  firstRocketLunchSfx: {fileID: 0}

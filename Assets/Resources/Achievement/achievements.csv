@@ -1,0 +1,11 @@
+id,progressType,title,description,targetAmount,nextTargetAmounts,repeatRequirementAmount,progressAmountPerEvent,rewardCurrency,rewardAmount
+player_level,PlayerLevel,지휘관 레벨 달성,지휘관 레벨 {0} 달성,5,6|7|8|9|10,5,1,CoreCrystals,10
+enemy_kill,EnemyKill,적 처치,적 {0}마리 처치,10,20|30|40|50|60|70,10,1,CoreCrystals,10
+stage_clear,StageClear,스테이지 도달,스테이지 {0}에 도달,3,6|9,3,1,CoreCrystals,10
+weapon_collect,WeaponCollect,무기 수집,무기 {0}개 수집,5,10|15|20|25,0,1,CoreCrystals,10
+drone_collect,DroneCollect,드론 해금,드론 {0}개 해금,4,5,0,1,CoreCrystals,10
+boss_clear,BossClear,보스처치,보스 {0}마리 처치,1,2|3|4,1,1,CoreCrystals,20
+boss_difficulty_clear,BossDifficultyClear,보스처치 (고난이도),"보스 {0}마리 처치(어려움 난이도 이상)",1,2|3|4,1,1,CoreCrystals,30
+facility_upgrade,FacilityUpgrade,기지 성장,기지 누적 Lv.{0} 달성,10,15|20|25|30|35|40|44,0,1,CoreCrystals,10
+weapon_upgrade,WeaponUpgrade,무기 강화,무기 강화 {0}회 완료,1,2|3|4|5|6|7|8|9|10,1,1,CoreCrystals,5
+drone_upgrade,DroneUpgrade,드론 강화,드론 강화 {0}회 완료,1,2|3|4|5|6|7,1,1,CoreCrystals,5

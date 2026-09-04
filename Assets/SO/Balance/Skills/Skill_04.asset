@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9948735bb66634f4aaa563da18aeac04, type: 3}
+  m_Name: Skill_04
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkillConfig
+  id: 04
+  displayName: "\uC2A4\uD154\uC2A4 \uD3ED\uACA9\uAE30"
+  icon: {fileID: 21300000, guid: c82f273e502f1c746bd71682de12c876, type: 3}
+  rarity: 2
+  skillType: 3
+  description: "\uC804\uB7B5 \uD3ED\uACA9\uAE30\r\n\r\n\uC804\uC7A5\uC744 \uAC00\uB85C\uC9C0\uB974\uBA70
+    \uD3ED\uD0C4\uC744 \uD22C\uD558\uD574 \uB113\uC740 \uC9C0\uC5ED\uC744 \uD0C0\uACA9\uD55C\uB2E4."
+  cooldown: 20
+  castRange: 8
+  minimumEnemyCount: 3
+  attackPowerMultiplier: 3
+  flatDamage: 0
+  canCritical: 1
+  effectRadius: 2.5
+  maxTargets: 30
+  knockbackForce: 0
+  maxLevel: 10
+  damagePercentPerLevel: 0.1
+  cooldownReductionPercentPerLevel: 0.03
+  maxCooldownReductionPercent: 0.5
+  countIncreaseLevelInterval: 3
+  bombCountIncreasePerInterval: 0
+  turretCountIncreasePerInterval: 0
+  maxLevelDuplicateCoreCrystalReward: 1
+  levelSkinStyles:
+  - collectionLevel: 1
+    bodyPaint: 0
+    chevronMark: 0
+  - collectionLevel: 2
+    bodyPaint: 0
+    chevronMark: 1
+  - collectionLevel: 3
+    bodyPaint: 1
+    chevronMark: 2
+  - collectionLevel: 4
+    bodyPaint: 2
+    chevronMark: 3
+  - collectionLevel: 5
+    bodyPaint: 3
+    chevronMark: 4
+  - collectionLevel: 6
+    bodyPaint: 4
+    chevronMark: 5
+  - collectionLevel: 7
+    bodyPaint: 5
+    chevronMark: 6
+  - collectionLevel: 8
+    bodyPaint: 6
+    chevronMark: 7
+  - collectionLevel: 9
+    bodyPaint: 7
+    chevronMark: 8
+  - collectionLevel: 10
+    bodyPaint: 8
+    chevronMark: 9
+  impactDelay: 0.25
+  warningEffectPrefab: {fileID: 9179389450710726649, guid: 0309f63716c8a4a4e84bead042662d12, type: 3}
+  impactEffectPrefab: {fileID: 1320533090949476, guid: f20077a0be0f3fa4495d97be6faa09bc, type: 3}
+  effectCleanupDelay: 2
+  _airplanePrefab: {fileID: 0}
+  _airplaneSpeed: 15
+  _airplaneSpawnOffset: 15
+  _airplaneHeight: 6
+  _bombProjectilePrefab: {fileID: 0}
+  _bombEffectScale: 5
+  _bombCount: 1
+  _bombInterval: 0.15
+  _screenShakeDuration: 0.28
+  _screenShakeStrength: 0.55
+  _screenShakeFrequency: 1.8
+  _airplaneTakeOffSfx: {fileID: 8300000, guid: d16f6f59791a540daba31b6c69785f99, type: 3}
+  impactSfx:
+  - {fileID: 8300000, guid: 1ac4c40ba4b4e4946bb10f9a4a4a227d, type: 3}
+  - {fileID: 8300000, guid: 3de63ca7328b03a4a9dc79237f1fc171, type: 3}
+  - {fileID: 8300000, guid: c9f0dfc8ff448b94f89f8fe9ba41ce07, type: 3}
+  turretPrefab: {fileID: 0}
+  turretProjectileConfig: {fileID: 0}
+  turretDuration: 8
+  turretAttackInterval: 0.8
+  turretAttackRange: 6
+  turretRotationSpeed: 360
+  turretPlacementDistance: 1.5
+  turretFirePointName: FirePoint
+  turretFireSfx: {fileID: 0}
+  missileTurretPrefab: {fileID: 0}
+  missileProjectilePrefab: {fileID: 0}
+  missileTurretDuration: 8
+  missileTurretAttackInterval: 1.2
+  missileTurretAttackRange: 7
+  missileTurretRotationSpeed: 240
+  missileTurretPlacementDistance: 1.8
+  missileExplosionRadius: 2.2
+  missileProjectileSpeed: 12
+  missileTurretFirePointName: FirePoint
+  missileImpactEffectPrefab: {fileID: 0}
+  missileTurretFireSfx: {fileID: 0}
+  stealthBomberPrefab: {fileID: 214164098778057125, guid: 8fd535507b2293c479d0b5d315d95e60, type: 3}
+  stealthBomberSpeed: 24
+  stealthBomberTravelDistance: 18
+  stealthBomberHeight: 6
+  stealthBomberRows: 1
+  stealthBomberColumns: 3
+  stealthBomberSpacing: 2.2
+  stealthBomberBombInterval: 0.12
+  stealthBomberExplosionRadius: 2.5
+  stealthBomberShadowSprite: {fileID: 0}
+  stealthBomberShadowSize: 4
+  stealthBomberShadowDarkness: 0.55
+  attackHelicopterPrefab: {fileID: 0}
+  helicopterProjectileConfig: {fileID: 0}
+  helicopterRocketPrefab: {fileID: 0}
+  attackHelicopterDuration: 15
+  attackHelicopterAttackInterval: 0.8
+  attackHelicopterAttackRange: 7
+  attackHelicopterMoveSpeed: 5
+  attackHelicopterFollowOffset: 2.5
+  attackHelicopterMaxDistanceFromPlayer: 6
+  helicopterOpeningRocketCount: 2
+  helicopterRocketRadius: 2
+  helicopterRocketSpeed: 16
+  helicopterRotorName: Propeller
+  helicopterRotorSpeed: 900
+  helicopterRocketLunchSfx: {fileID: 0}
+  firstRocketLunchSfx: {fileID: 0}

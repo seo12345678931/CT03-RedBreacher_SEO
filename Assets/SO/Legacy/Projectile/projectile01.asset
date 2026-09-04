@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c529ea981bc074109bb7afba98b3e58f, type: 3}
+  m_Name: projectile01
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileConfig
+  projectilePrefab: {fileID: 4873074593752115563, guid: e75eeca4394f04d3f84eaf9d13787b23, type: 3}
+  speed: 10
+  lifetime: 2
+  collisionRadius: 0.2
+  knockbackForce: 1.5
+  fireFlashEffectPrefab: {fileID: 1069073989498846, guid: 7658ae01d0a0655468898c47617f4de6, type: 3}
+  projectileEffectPrefab: {fileID: 1564468091806366, guid: f1dc4df701f37324c98ea16f41770afc, type: 3}
+  hitEffectPrefab: {fileID: 1096352044232144, guid: 6e4b9c1925f0d3f4d8446e551a2e20d3, type: 3}
+  effectCleanupDelay: 2

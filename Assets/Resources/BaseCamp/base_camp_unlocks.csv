@@ -1,0 +1,7 @@
+facilityId,displayName,requiredCommandCenterLevel
+energy_refinery,자원 정제소,1
+assembly_factory,조립 공장,2
+core_charger,코어 강화소,3
+skill_hanger,스킬 격납고,1
+trait_point_facility,특성 연구소,1
+boss_tracker,관제탑,1

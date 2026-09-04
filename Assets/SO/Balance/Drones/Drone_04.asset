@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eed6c566185c413391f3e59771b3a2c, type: 3}
+  m_Name: Drone_04
+  m_EditorClassIdentifier: Assembly-CSharp::DroneConfig
+  id: 04
+  displayName: "\uCEF4\uD329\uD2B8\uB4DC\uB860"
+  dronePrefab: {fileID: 214164098778057125, guid: d10565d9e25de29418f098b119624fc0, type: 3}
+  projectileConfig: {fileID: 11400000, guid: 5e199e29e242d41afa3ab2448269b266, type: 2}
+  attackDamage: 6
+  attackRange: 5.6
+  attackInterval: 0.85
+  fireAngleTolerance: 5
+  rotationSpeed: 360
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  projectileSpeed: 20
+  projectileLifetime: 2
+  droneCount: 2
+  followRadius: 1.3
+  followSpeed: 8.6
+  followSmoothTime: 0.35
+  startAngle: 180
+  angleStep: 45
+  muzzleNamePrefix: FireMuzzle

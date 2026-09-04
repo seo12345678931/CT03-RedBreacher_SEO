@@ -1,0 +1,1087 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d181c03df4d514477af7af4667bb6e22, type: 3}
+  m_Name: TutorialConfig
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialConfig
+  bodyFont: {fileID: 11400000, guid: a5e325fc73a121645b8bb045804e62a4, type: 2}
+  overlayPrefab: {fileID: 4634822672165253103, guid: 7f288b02607aa48329b0d17e2740491f, type: 3}
+  steps:
+  - order: 1
+    id: open_player
+    bodyText: "<b>\uB808\uB4DC\uBE0C\uB9AC\uCC98</b>\uC5D0 \uC624\uC2E0 \uAC83\uC744
+      \uD658\uC601\uD569\uB2C8\uB2E4! \uBA3C\uC800 <b>\uBB34\uAE30\uC640 \uB4DC\uB860\uC744
+      \uAD50\uCCB4\uD558\uB294 \uBC29\uBC95</b>\uBD80\uD130 \uC54C\uC544\uBCF4\uACA0\uC2B5\uB2C8\uB2E4.
+      <b>\uAE30\uCCB4 \uD0ED</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Player_Btn
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 2
+    id: open_player
+    bodyText: "\uC6B0\uCE21\uC758 <b>\uC8FC\uBB34\uC7A5 \uC544\uC774\uCF58</b>\uC744
+      \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Weapon_Image_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 6
+    targetId: 
+  - order: 3
+    id: open_player
+    bodyText: "\uBB34\uAE30 <b>'\uD3EC\uD0C4'</b>\uC744 \uC120\uD0DD\uD558\uC138\uC694."
+    highlightTargetName: LoadoutOptionButton(Clone)
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 4
+    id: open_player
+    bodyText: "\uBB34\uAE30\uB97C \uACE0\uB978 \uB4A4 <b>\uC7A5\uCC29\uD558\uAE30
+      \uBC84\uD2BC</b>\uAE4C\uC9C0 \uB20C\uB7EC\uC57C \uC7A5\uCC29\uC774 \uC644\uB8CC\uB429\uB2C8\uB2E4."
+    highlightTargetName: Equip_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 5
+    id: open_player
+    bodyText: "\uC798\uD558\uC168\uC2B5\uB2C8\uB2E4! \uC774\uBC88\uC5D4 \uAE30\uCCB4
+      \uD0ED\uC744 \uC0B4\uD3B4\uBCF4\uACA0\uC2B5\uB2C8\uB2E4. \uC7A5\uCC29\uD55C
+      \uBB34\uAE30\uC640 \uB4DC\uB860\uC758 \uC2A4\uD0EF\uC740 \uC544\uB798 \uD328\uB110\uC5D0
+      \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+    highlightTargetName: Weapon/Drone Infos_BG_Frame
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 6
+    id: open_player
+    bodyText: "\uC704\uCABD \uBC84\uD2BC\uC73C\uB85C <b>\uBB34\uAE30\uC640 \uB4DC\uB860\uC758
+      \uC2A4\uD0EF\uC744 \uBC88\uAC08\uC544</b> \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: InfoButtons Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 7
+    id: open_player
+    bodyText: "\uD0D1\uC2B9 \uC911\uC778 <b>\uD0F1\uD06C\uC758 \uC2A4\uD0EF</b>\uC785\uB2C8\uB2E4.
+      \uB2A5\uB825\uCE58\uC640 \uD604\uC7AC \uD0F1\uD06C \uB808\uBCA8\uC744 \uD655\uC778\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Player nfos_BG_Frame
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 8
+    id: open_player
+    bodyText: "<b>\uD654\uC0B4\uD45C \uBC84\uD2BC</b>\uC744 \uB204\uB974\uBA74 <b>\uB354
+      \uC0C1\uC138\uD55C \uC815\uBCF4</b>\uB97C \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: RouteDetailButton
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 9
+    id: open_player
+    bodyText: "<b>\uB4DC\uB860</b>\uC785\uB2C8\uB2E4. \uD0F1\uD06C\uB97C <b>\uC5C4\uD638</b>\uD558\uBA70
+      <b>\uBCF4\uC870 \uD654\uB825</b>\uC744 \uB354\uD574 \uC90D\uB2C8\uB2E4."
+    highlightTargetName: Drone_Image_Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 10
+    id: open_player
+    bodyText: "<b>\uB4DC\uB860 \uC544\uC774\uCF58</b>\uC744 \uB20C\uB7EC \uC0B4\uD3B4\uBCF4\uC138\uC694."
+    highlightTargetName: Drone_Image_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 11
+    id: open_player
+    bodyText: "\uB4DC\uB860 \uC778\uBCA4\uD1A0\uB9AC\uC785\uB2C8\uB2E4. \uC9C0\uAE08\uC740
+      1\uAE30\uBFD0\uC774\uC9C0\uB9CC, \uC0C8\uB85C\uC6B4 \uB4DC\uB860\uC774 \uD574\uAE08\uB418\uBA74
+      \uAC19\uC740 \uBC29\uC2DD\uC73C\uB85C \uAD50\uCCB4\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Viewport
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 12
+    id: open_player
+    bodyText: "<b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 13
+    id: open_player
+    bodyText: "\uD50C\uB808\uC774\uC5B4\uC758 \uB2A5\uB825\uCE58\uB97C \uD558\uB098\uB85C
+      \uD569\uCE5C <b>\uC885\uD569 \uC804\uD22C\uB825</b>\uC785\uB2C8\uB2E4."
+    highlightTargetName: PlayerPower_txt
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 14
+    id: open_player
+    bodyText: "\uC2A4\uD0AC\uC744 \uC81C\uC678\uD55C <b>\uD0F1\uD06C + \uB4DC\uB860
+      + \uBB34\uAE30</b>\uC758 \uB2A5\uB825\uCE58\uB97C \uD569\uC0B0\uD55C \uAC12\uC785\uB2C8\uB2E4."
+    highlightTargetName: PlayerPower_txt
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 15
+    id: open_player
+    bodyText: "\uAE30\uCCB4 \uD0ED \uC124\uBA85\uC740 \uC5EC\uAE30\uAE4C\uC9C0\uC785\uB2C8\uB2E4.
+      \uC774\uC5B4\uC11C <b>\uC778\uAC8C\uC784 UI</b>\uB97C \uC0B4\uD3B4\uBCF4\uACA0\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 16
+    id: open_player
+    bodyText: "<b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 17
+    id: open_player
+    bodyText: "\uD0F1\uD06C\uC758 <b>\uB808\uBCA8\uACFC \uB0B4\uAD6C\uB3C4(HP)</b>\uB97C
+      \uBCF4\uC5EC\uC8FC\uB294 \uC0C1\uD0DC\uCC3D\uC785\uB2C8\uB2E4."
+    highlightTargetName: UserStatus_Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 18
+    id: open_player
+    bodyText: "\uB0B4\uAD6C\uB3C4\uAC00 <b>0\uC774 \uB418\uBA74 \uC804\uCC28\uAC00
+      \uD30C\uAD34</b>\uB418\uACE0, <b>3\uCD08 \uB4A4 \uC790\uB3D9\uC73C\uB85C \uC7AC\uBC30\uCE58</b>\uB429\uB2C8\uB2E4."
+    highlightTargetName: UserStatus_Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 19
+    id: open_player
+    bodyText: "\uD50C\uB808\uC774\uC5B4\uC758 \uC131\uC7A5\uC744 \uB3D5\uB294 <b>\uAC00\uC774\uB4DC
+      \uC784\uBB34</b>\uC785\uB2C8\uB2E4. \uBAA9\uD45C\uB97C \uB2EC\uC131\uD558\uBA74
+      \uC7AC\uD654\uB97C \uBCF4\uC0C1\uC73C\uB85C \uC9C0\uAE09\uD569\uB2C8\uB2E4."
+    highlightTargetName: GuideMissionBar
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 20
+    id: open_player
+    bodyText: "\uACF5\uC6A9 \uD654\uD3D0 <color=#EED96B><b>\uD06C\uB808\uB527</b></color>\uC785\uB2C8\uB2E4.
+      \uC2DC\uC124\uACFC \uD0F1\uD06C\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD560
+      \uB54C \uC0AC\uC6A9\uD569\uB2C8\uB2E4."
+    highlightTargetName: Credit
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 21
+    id: open_player
+    bodyText: "<b>\uC801 \uCC98\uCE58, \uAC00\uC774\uB4DC \uC784\uBB34 \uB2EC\uC131,
+      \uC790\uC6D0 \uC815\uC81C\uC18C \uC218\uAE09</b> \uB4F1 \uB2E4\uC591\uD55C
+      \uBC29\uBC95\uC73C\uB85C \uD68D\uB4DD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Credit
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 22
+    id: open_player
+    bodyText: "\uD76C\uADC0 \uC790\uC6D0 <color=#60C6DE><b>\uCF54\uC5B4 \uD06C\uB9AC\uC2A4\uD0C8</b></color>\uC785\uB2C8\uB2E4.
+      \uC0C1\uC810\uC5D0\uC11C \uBB34\uAE30\uC640 \uC2A4\uD0AC\uC744 \uBF51\uC744
+      \uB54C \uC0AC\uC6A9\uD569\uB2C8\uB2E4."
+    highlightTargetName: Core Crystal
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 23
+    id: open_player
+    bodyText: "<b>\uBCF4\uC2A4 \uCC98\uCE58</b>\uB098 <b>\uB3C4\uC804\uACFC\uC81C
+      \uC644\uB8CC</b>\uB85C \uD68D\uB4DD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Core Crystal
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 24
+    id: open_player
+    bodyText: "<b>\uC2A4\uD0AC \uD45C\uC2DC\uCC3D</b>\uC785\uB2C8\uB2E4. \uC2A4\uD0AC\uC744
+      \uBCF4\uC720\uD558\uBA74 \uD558\uB2E8\uC5D0 \uC544\uC774\uCF58\uC774 \uB098\uD0C0\uB0A9\uB2C8\uB2E4."
+    highlightTargetName: SkillCooldown
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 25
+    id: open_player
+    bodyText: "<b>\uCFE8\uD0C0\uC784</b>\uC774 0\uC774 \uB418\uBA74 \uC2A4\uD0AC\uC774
+      \uC790\uB3D9\uC73C\uB85C \uBC1C\uB3D9\uB429\uB2C8\uB2E4."
+    highlightTargetName: SkillCooldown
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 26
+    id: open_player
+    bodyText: "\uD604\uC7AC <b>\uC2A4\uD14C\uC774\uC9C0</b>\uB97C \uBCF4\uC5EC\uC8FC\uB294
+      \uCC3D\uC785\uB2C8\uB2E4."
+    highlightTargetName: Stage_Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 27
+    id: open_player
+    bodyText: "<b>\uD55C \uC2A4\uD14C\uC774\uC9C0\uB294 \uC5EC\uB7EC \uB77C\uC6B4\uB4DC</b>\uB85C
+      \uC774\uB8E8\uC5B4\uC9C0\uBA70, \uB77C\uC6B4\uB4DC\uB97C \uBAA8\uB450 \uB9C8\uCE58\uBA74
+      \uB2E4\uC74C \uC2A4\uD14C\uC774\uC9C0\uB85C \uB118\uC5B4\uAC11\uB2C8\uB2E4."
+    highlightTargetName: Stage_Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 28
+    id: open_player
+    bodyText: "\uC2A4\uD14C\uC774\uC9C0\uAC00 \uC624\uB97C\uC218\uB85D <b>\uBCF4\uC0C1\uC774
+      \uCEE4\uC9C0\uACE0 \uB354 \uAC15\uD55C \uC801</b>\uC774 \uB4F1\uC7A5\uD569\uB2C8\uB2E4."
+    highlightTargetName: Stage_Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 29
+    id: open_player
+    bodyText: "<b>\uBCF4\uC2A4\uB97C \uC18C\uD658</b>\uD558\uB294 \uBC84\uD2BC\uC785\uB2C8\uB2E4.
+      \uB204\uB974\uBA74 \uD2F0\uCF13\uC744 \uC18C\uBAA8\uD574 \uBCF4\uC2A4\uC804\uC774
+      \uC2DC\uC791\uB429\uB2C8\uB2E4."
+    highlightTargetName: Boss_Btn
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 30
+    id: open_player
+    bodyText: "<b>\uC778\uAC8C\uC784 UI</b> \uC124\uBA85\uC744 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4.
+      <b>\uB098\uB9CC\uC758 \uBD89\uC740 \uD0F1\uD06C\uB97C \uD0A4\uC6CC \uC804\uC7A5\uC744
+      \uB3CC\uD30C\uD558\uC138\uC694!</b>"
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 31
+    id: base_popup_intro
+    bodyText: "<b>\uAE30\uC9C0</b>\uC5D0 \uC624\uC2E0 \uAC83\uC744 \uD658\uC601\uD569\uB2C8\uB2E4!
+      \uC774\uACF3\uC5D0\uC11C\uB294 \uC790\uC6D0\uC744 \uBAA8\uC73C\uACE0 \uC2DC\uC124\uC744
+      \uC5C5\uADF8\uB808\uC774\uB4DC\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 32
+    id: base_popup_intro
+    bodyText: "\uBA3C\uC800 \uBCF8\uBD80\uBD80\uD130 \uB458\uB7EC\uBCF4\uACA0\uC2B5\uB2C8\uB2E4.
+      <b>\uC0AC\uB839\uBD80</b>\uB97C \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Command Center
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 33
+    id: base_command_center_intro
+    bodyText: "<b>\uAE30\uC9C0 \uC804\uCCB4\uB97C \uCD1D\uAD04\uD558\uB294 \uD575\uC2EC
+      \uC2DC\uC124</b>\uC785\uB2C8\uB2E4. \uC0AC\uB839\uBD80 \uB808\uBCA8\uC774 \uC624\uB974\uBA74
+      \uC0C8\uB85C\uC6B4 \uC2DC\uC124\uACFC \uCF58\uD150\uCE20\uAC00 \uD574\uAE08\uB429\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 34
+    id: base_command_center_intro
+    bodyText: "\uC9C0\uAE08\uC740 \uC77C\uBD80 \uAE30\uC9C0\uAC00 \uC7A0\uACA8 \uC788\uC2B5\uB2C8\uB2E4.
+      \uD574\uAE08\uD558\uB824\uBA74 <b>\uC5C5\uADF8\uB808\uC774\uB4DC \uBC84\uD2BC</b>\uC744
+      \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Upgrade_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 35
+    id: base_command_center_intro
+    bodyText: "<b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton_Cmd
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 36
+    id: base_refinery_intro
+    bodyText: "<b>\uC790\uC6D0 \uC815\uC81C\uC18C</b>\uC785\uB2C8\uB2E4. \uC2DC\uAC04\uC774
+      \uC9C0\uB0A0\uC218\uB85D \uD06C\uB808\uB527\uC774 \uC313\uC785\uB2C8\uB2E4."
+    highlightTargetName: Credit Refinery
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 37
+    id: base_refinery_intro
+    bodyText: "\uAC00\uB4DD \uCC28\uAE30 \uC804\uC5D0 \uC218\uC9D1\uD574 \uC8FC\uC138\uC694."
+    highlightTargetName: Collection_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 38
+    id: base_refinery_intro
+    bodyText: "\uC774\uBC88\uC5D4 \uC548\uC744 \uC790\uC138\uD788 \uC0B4\uD3B4\uBCF4\uACA0\uC2B5\uB2C8\uB2E4.
+      <b>\uC790\uC6D0 \uC815\uC81C\uC18C</b>\uB97C \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Credit Refinery
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 39
+    id: base_refinery_intro
+    bodyText: "<b>\uD06C\uB808\uB527\uC758 \uC6D0\uB8CC\uAC00 \uB418\uB294 \uAD11\uBB3C\uC744
+      \uCC44\uAD74\uD558\uACE0 \uC815\uC81C\uD558\uB294 \uC2DC\uC124</b>\uC785\uB2C8\uB2E4.
+      \uCD5C\uB300 \uC800\uC7A5\uB7C9\uACFC \uC2DC\uAC04\uB2F9 \uC218\uC9D1\uB7C9\uC744
+      \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 40
+    id: base_refinery_intro
+    bodyText: "\uC5C5\uADF8\uB808\uC774\uB4DC\uD560\uC218\uB85D <b>\uB354 \uBE60\uB974\uAC8C,
+      \uB354 \uB9CE\uC774</b> \uD06C\uB808\uB527\uC744 \uBAA8\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: UpgradeDetail
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 41
+    id: base_refinery_intro
+    bodyText: "<b>\uC5EC\uAE30\uC11C\uB3C4 \uC218\uC9D1\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.</b>
+      \uAC00\uB4DD \uCC28\uAE30 \uC804\uC5D0 <b>\uC218\uC9D1 \uBC84\uD2BC</b>\uC744
+      \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Refinery Storage_Bar_CollectButton
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 42
+    id: base_refinery_intro
+    bodyText: "\uC790\uC6D0 \uC815\uC81C\uC18C \uC124\uBA85\uC744 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4.
+      <b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 43
+    id: base_TraitPoint_intro
+    bodyText: "<b>\uD2B9\uC131 \uC5F0\uAD6C\uC18C</b>\uB97C \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: TraitPointFacility
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 44
+    id: base_TraitPoint_intro
+    bodyText: "\uD2B9\uC131 \uAC15\uD654\uC5D0 \uC0AC\uC6A9\uD558\uB294 <b>\uD3EC\uC778\uD2B8</b>\uC785\uB2C8\uB2E4.
+      \uD50C\uB808\uC774\uC5B4\uAC00 \uB808\uBCA8\uC744 \uC62C\uB9B4 \uB54C\uB9C8\uB2E4
+      \uD558\uB098\uC529 \uC5BB\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: point
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 45
+    id: base_TraitPoint_intro
+    bodyText: "<b>\uD654\uB825 \uAC15\uD654 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Att_btn
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 46
+    id: base_TraitPoint_intro
+    bodyText: "\uD3EC\uC778\uD2B8\uB85C <b>4\uAC00\uC9C0 \uB2A5\uB825\uCE58 \uC911
+      \uD558\uB098\uB97C \uC601\uAD6C\uC801\uC73C\uB85C \uC18C\uD3ED \uAC15\uD654</b>\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Stat Upgrade
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 47
+    id: base_TraitPoint_intro
+    bodyText: "\uD0D1\uC2B9\uD55C <b>\uD0F1\uD06C\uC758 \uB2A5\uB825\uCE58</b>\uB97C
+      \uBCF4\uC5EC\uC8FC\uB294 \uAD6C\uAC04\uC785\uB2C8\uB2E4."
+    highlightTargetName: Tank Status
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 48
+    id: base_TraitPoint_intro
+    bodyText: "\uAC15\uD654\uD560 \uB54C\uB9C8\uB2E4 <b>\uD0F1\uD06C\uC758 \uB2A5\uB825\uCE58\uAC00
+      \uC2E4\uC2DC\uAC04\uC73C\uB85C \uBC14\uB00C\uB294</b> \uAC83\uC744 \uD655\uC778\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Tank Status
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 49
+    id: base_TraitPoint_intro
+    bodyText: "<b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton_TrPoint
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 50
+    id: base_Factory_intro
+    bodyText: "\uC0AC\uB839\uBD80\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD574 \uC0C8
+      \uC2DC\uC124\uC774 \uD574\uAE08\uB410\uC2B5\uB2C8\uB2E4. <b>\uC870\uB9BD \uACF5\uC7A5</b>\uC744
+      \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Assembly Factory
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 51
+    id: base_Factory_intro
+    bodyText: "<b>\uC870\uB9BD \uACF5\uC7A5</b>\uC5D0\uC11C\uB294 \uBB34\uAE30\uC640
+      \uB4DC\uB860\uC758 \uD53C\uD574\uB7C9\uC744 \uAC15\uD654\uD569\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 52
+    id: base_Factory_intro
+    bodyText: "\uAC15\uD654\uD560 \uBB34\uAE30\uB97C \uC120\uD0DD\uD558\uC138\uC694."
+    highlightTargetName: Weapon Menu Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 53
+    id: base_Factory_intro
+    bodyText: "\uBB34\uAE30 <b>'\uD3EC\uD0C4'</b>\uC744 \uC120\uD0DD\uD558\uC138\uC694."
+    highlightTargetName: LoadoutOptionButton(Clone)
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 54
+    id: base_Factory_intro
+    bodyText: "<b>\uC7A5\uCC29\uD558\uAE30 \uBC84\uD2BC</b>\uAE4C\uC9C0 \uB20C\uB7EC\uC57C
+      \uC120\uD0DD\uC774 \uC644\uB8CC\uB429\uB2C8\uB2E4."
+    highlightTargetName: Equip_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 55
+    id: base_Factory_intro
+    bodyText: "\uC120\uD0DD\uC744 \uB9C8\uCE58\uBA74 \uC544\uB798 <b>\uAC15\uD654
+      \uBC84\uD2BC</b>\uC774 \uD65C\uC131\uD654\uB429\uB2C8\uB2E4. \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Weapon Enhance Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 56
+    id: base_Factory_intro
+    bodyText: "\uC644\uB8CC\uB410\uC2B5\uB2C8\uB2E4! \uC774\uC81C \uBB34\uAE30\uB098
+      \uB4DC\uB860\uC744 \uAC15\uD654\uD560 \uB54C\uB9C8\uB2E4 \uD53C\uD574\uB7C9\uC774
+      \uC624\uB974\uACE0, \uADF8\uB9CC\uD07C \uD06C\uB808\uB527 \uBE44\uC6A9\uB3C4
+      \uB298\uC5B4\uB0A9\uB2C8\uB2E4."
+    highlightTargetName: Weapon Enhance Detail
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 57
+    id: base_Factory_intro
+    bodyText: "<b>\uCD5C\uB300 \uAC15\uD654 \uB808\uBCA8</b>\uC744 \uBCF4\uC5EC\uC8FC\uB294
+      \uAD6C\uAC04\uC785\uB2C8\uB2E4. <b>\uC5C5\uADF8\uB808\uC774\uB4DC\uD560 \uB54C\uB9C8\uB2E4
+      5\uB808\uBCA8\uC529</b> \uC62C\uB77C\uAC11\uB2C8\uB2E4."
+    highlightTargetName: AssemblyLevel_txt
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 58
+    id: base_Factory_intro
+    bodyText: "\uB2E4\uC74C\uC740 \uC2A4\uD0AC\uC744 \uAD50\uCCB4\uD558\uB294 \uBC29\uBC95\uC785\uB2C8\uB2E4.
+      <b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton_Factory
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 59
+    id: base_SkillHanger_intro
+    bodyText: "<b>\uC2A4\uD0AC \uACA9\uB0A9\uACE0</b>\uB97C \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Skill Hanger Facility
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 60
+    id: base_SkillHanger_intro
+    bodyText: "\uC5EC\uAE30\uC11C \uBCF4\uC720\uD55C <b>\uC2A4\uD0AC \uC2AC\uB86F\uC744
+      \uD655\uC778\uD558\uACE0 \uAD50\uCCB4</b>\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 61
+    id: base_SkillHanger_intro
+    bodyText: "<b>\uC2A4\uD0AC \uB808\uBCA8</b>\uC785\uB2C8\uB2E4. \uC0C1\uC810\uC5D0\uC11C
+      \uAC19\uC740 \uC2A4\uD0AC\uC744 \uB2E4\uC2DC \uC5BB\uC73C\uBA74 \uB808\uBCA8\uC774
+      \uC624\uB985\uB2C8\uB2E4."
+    highlightTargetName: Skill Level
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 62
+    id: base_SkillHanger_intro
+    bodyText: "\uB808\uBCA8\uC774 \uC624\uB974\uBA74 <b>\uC2A4\uD0AC \uD53C\uD574\uB7C9</b>\uC774
+      \uCEE4\uC9C0\uACE0, \uC77C\uBD80 \uC2A4\uD0AC\uC740 <b>\uCFE8\uD0C0\uC784 \uAC10\uC18C\uB098
+      \uACF5\uACA9 \uD69F\uC218 \uC99D\uAC00</b> \uD6A8\uACFC\uB97C \uC5BB\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Skill Level
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 63
+    id: base_SkillHanger_intro
+    bodyText: "<b>\uCD5C\uB300 \uB808\uBCA8\uC5D0 \uB3C4\uB2EC\uD55C \uB4A4 \uC911\uBCF5\uC73C\uB85C
+      \uC5BB\uC73C\uBA74</b> <color=#60C6DE><b>\uCF54\uC5B4 \uD06C\uB9AC\uC2A4\uD0C8</b></color>\uB85C
+      \uC9C0\uAE09\uB429\uB2C8\uB2E4."
+    highlightTargetName: Skill Level
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 64
+    id: base_SkillHanger_intro
+    bodyText: "\uC7A5\uCC29\uD55C \uC2A4\uD0AC\uC744 \uBCF4\uC5EC\uC8FC\uB294 \uC2AC\uB86F\uC785\uB2C8\uB2E4.
+      <b>\uAE30\uC9C0 \uC5C5\uADF8\uB808\uC774\uB4DC\uB85C \uC2AC\uB86F\uC744 \uCD5C\uB300
+      4\uAC1C\uAE4C\uC9C0</b> \uB298\uB9B4 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: SkillButton_Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 65
+    id: base_SkillHanger_intro
+    bodyText: "\uB2E4\uC74C\uC740 <b>\uAD00\uC81C\uD0D1</b>\uC785\uB2C8\uB2E4. <b>\uB3CC\uC544\uAC00\uAE30
+      \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: ExitButton_SH
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 66
+    id: base_BossTracker_intro
+    bodyText: "<b>\uAD00\uC81C\uD0D1</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Boss Tracker
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 67
+    id: base_BossTracker_intro
+    bodyText: "\uC5EC\uAE30\uC11C\uB294 <b>\uBCF4\uC2A4 \uC815\uBCF4\uB97C \uC0B4\uD3B4\uBCF4\uACE0
+      \uB09C\uC774\uB3C4\uB97C \uC870\uC815</b>\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 68
+    id: base_BossTracker_intro
+    bodyText: "\uAD00\uC81C\uD0D1 \uB808\uBCA8\uC740 <b>\uC0AC\uB839\uBD80 \uB808\uBCA8</b>\uACFC
+      \uC5F0\uB3D9\uB429\uB2C8\uB2E4. \uC0AC\uB839\uBD80 \uB808\uBCA8\uC774 \uC624\uB974\uBA74
+      <b>\uACE0\uB09C\uC774\uB3C4\uAC00 \uD574\uAE08\uB418\uACE0 \uD2F0\uCF13 \uBCF4\uC720\uB7C9\uACFC
+      \uCDA9\uC804\uB7C9\uB3C4 \uB298\uC5B4\uB0A9\uB2C8\uB2E4.</b>"
+    highlightTargetName: Title
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 69
+    id: base_BossTracker_intro
+    bodyText: "\uBCF4\uC2A4 \uC815\uBCF4\uCC3D\uC785\uB2C8\uB2E4. <b>\uCCB4\uB825,
+      \uAD8C\uC7A5 \uC804\uD22C\uB825, \uB09C\uC774\uB3C4, \uC0AC\uC6A9 \uBB34\uAE30,
+      \uCC98\uCE58 \uBCF4\uC0C1</b>\uC744 \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Boss Status_Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 70
+    id: base_BossTracker_intro
+    bodyText: "\uC591\uC606 \uBC84\uD2BC\uC73C\uB85C <b>\uBCF4\uC2A4 \uB09C\uC774\uB3C4</b>\uB97C
+      \uC120\uD0DD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: DifficultySelectButton_Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 71
+    id: base_BossTracker_intro
+    bodyText: "\uB09C\uC774\uB3C4\uB294 <b>\uC77C\uBC18 \u2192 \uC5B4\uB824\uC6C0
+      \u2192 \uC815\uC608</b> \uC21C\uC774\uBA70, \uB192\uC744\uC218\uB85D \uBCF4\uC2A4\uAC00
+      \uAC15\uD574\uC9C0\uACE0 \uBCF4\uC0C1\uB3C4 \uCEE4\uC9D1\uB2C8\uB2E4."
+    highlightTargetName: Boss Status_Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 72
+    id: base_BossTracker_intro
+    bodyText: "\uBCF4\uC720\uD55C <b>\uD2F0\uCF13 \uAC1C\uC218</b>\uB97C \uBCF4\uC5EC\uC8FC\uB294
+      \uAD6C\uAC04\uC785\uB2C8\uB2E4."
+    highlightTargetName: BossTicket_ForPanel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 73
+    id: base_BossTracker_intro
+    bodyText: "\uBCF4\uC2A4\uC804\uC5D0 \uC785\uC7A5\uD558\uB824\uBA74 \uD2F0\uCF13\uC774
+      \uD544\uC694\uD558\uBA70, <b>\uC2DC\uAC04\uC774 \uC9C0\uB098\uBA74 \uC790\uB3D9\uC73C\uB85C
+      \uCDA9\uC804</b>\uB429\uB2C8\uB2E4."
+    highlightTargetName: BossTicket_ForPanel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 74
+    id: base_BossTracker_intro
+    bodyText: "<b>\uBCF4\uC2A4\uB97C \uCC98\uC74C \uCC98\uCE58</b>\uD558\uBA74 <b>\uD2F0\uCF13\uC744
+      \uBCF4\uB108\uC2A4\uB85C \uC9C0\uAE09</b>\uD569\uB2C8\uB2E4."
+    highlightTargetName: BossTicket_ForPanel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 75
+    id: base_BossTracker_intro
+    bodyText: "<b>\uB3CC\uC544\uAC00\uAE30 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: CloseButton
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 76
+    id: base_outtro
+    bodyText: "\uB9C8\uC9C0\uB9C9\uC73C\uB85C <b>\uCF54\uC5B4 \uAC15\uD654\uC18C</b>\uB97C
+      \uC0B4\uD3B4\uBCF4\uACA0\uC2B5\uB2C8\uB2E4. \uC774\uACF3\uC5D0\uC11C <b>\uD0F1\uD06C\uB97C
+      \uAC15\uD654\uD558\uACE0 \uC0C8 \uB4DC\uB860\uC744 \uD574\uAE08</b>\uD560 \uC218
+      \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Core Charger
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 77
+    id: base_outtro
+    bodyText: "\uC544\uC9C1 <b>\uC0AC\uB839\uBD80 \uB808\uBCA8 3</b>\uC5D0 \uB3C4\uB2EC\uD558\uC9C0
+      \uC54A\uC544 \uC7A0\uACA8 \uC788\uC2B5\uB2C8\uB2E4. \uD574\uAE08\uB418\uBA74
+      \uB2E4\uC2DC \uC548\uB0B4\uD574 \uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: LockState_CC
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 78
+    id: base_outtro
+    bodyText: "\uAE30\uC9C0 \uC124\uBA85\uC744 \uBAA8\uB450 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4.
+      \uC218\uACE0\uD558\uC168\uC2B5\uB2C8\uB2E4!"
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 79
+    id: base_core_charger_intro
+    bodyText: "\uC0AC\uB839\uBD80 \uB808\uBCA8\uC774 3\uC774 \uB418\uC5B4 <b>\uCF54\uC5B4
+      \uAC15\uD654\uC18C</b>\uAC00 \uD574\uAE08\uB410\uC2B5\uB2C8\uB2E4! \uD45C\uC2DC\uB41C
+      \uC2DC\uC124\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Core Charger
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 80
+    id: base_core_charger_intro
+    bodyText: "<b>\uD604\uC7AC \uD0F1\uD06C\uC640 \uB2E4\uC74C \uAC15\uD654 \uB2E8\uACC4</b>\uB97C
+      \uBE44\uAD50\uD574 \uBCFC \uC218 \uC788\uB294 \uACF3\uC785\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 81
+    id: base_core_charger_intro
+    bodyText: "<b>\uD604\uC7AC \uD0F1\uD06C\uC640 \uB2E4\uC74C \uD0F1\uD06C\uC758
+      \uC2A4\uD0EF</b>\uC744 \uD655\uC778\uD558\uB294 \uCC3D\uC785\uB2C8\uB2E4."
+    highlightTargetName: Tank Route Status
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 82
+    id: base_core_charger_intro
+    bodyText: "<b>\uD654\uC0B4\uD45C \uBC84\uD2BC</b>\uC744 \uB204\uB974\uBA74 <b>\uC0C1\uC138
+      \uC815\uBCF4</b>\uB97C \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: RouteDetailButton
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 83
+    id: base_core_charger_intro
+    bodyText: "\uCF54\uC5B4 \uAC15\uD654\uC18C\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD558\uBA74
+      <b>\uB2E4\uC74C \uC720\uB2DB \uAC15\uD654 \uBC84\uD2BC\uC774 \uD65C\uC131\uD654</b>\uB429\uB2C8\uB2E4.
+      \uAC15\uD654 \uC2DC <color=#60C6DE><b>\uCF54\uC5B4 \uD06C\uB9AC\uC2A4\uD0C8</b></color>
+      \uBE44\uC6A9\uC774 \uC694\uAD6C\uB429\uB2C8\uB2E4."
+    highlightTargetName: Enhance Unit Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 84
+    id: base_core_charger_intro
+    bodyText: "\uB2E4\uC74C\uC740 <b>\uB4DC\uB860 \uD574\uAE08</b>\uC785\uB2C8\uB2E4.
+      \uD45C\uC2DC\uB41C \uBC84\uD2BC\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Button_DroneUnlock
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 85
+    id: base_core_charger_intro
+    bodyText: "\uC5EC\uAE30\uC11C <b>\uB2E4\uC74C \uB4DC\uB860\uC758 \uD574\uAE08
+      \uC870\uAC74</b>\uC744 \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: DroneUnlock_Conversion_SubPanel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 86
+    id: base_core_charger_intro
+    bodyText: "<b>\uB2E4\uC74C\uC5D0 \uD574\uAE08\uB420 \uB4DC\uB860\uC758 \uC2A4\uD0EF</b>\uC744
+      \uBCF4\uC5EC\uC8FC\uB294 \uCC3D\uC785\uB2C8\uB2E4. <b>\uD654\uC0B4\uD45C \uBC84\uD2BC</b>\uC73C\uB85C
+      \uC790\uC138\uD788 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Drone Status
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 87
+    id: base_core_charger_intro
+    bodyText: "\uAE30\uC9C0\uB97C \uC5C5\uADF8\uB808\uC774\uB4DC\uD560\uC218\uB85D
+      <b>\uB354 \uAC15\uB825\uD55C \uB4DC\uB860</b>\uC744 \uD574\uAE08\uD560 \uC218
+      \uC788\uB294 \uB2E8\uACC4\uAC00 \uB298\uC5B4\uB0A9\uB2C8\uB2E4. \uB9C8\uCC2C\uAC00\uC9C0\uB85C
+      <color=#60C6DE><b>\uCF54\uC5B4 \uD06C\uB9AC\uC2A4\uD0C8</b></color> \uBE44\uC6A9\uC774
+      \uC694\uAD6C\uB429\uB2C8\uB2E4."
+    highlightTargetName: Unlock Drone Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 88
+    id: base_core_charger_intro
+    bodyText: "\uCF54\uC5B4 \uAC15\uD654\uC18C \uC124\uBA85\uC744 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4!"
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: 
+  - order: 89
+    id: inventory_intro
+    bodyText: "<b>\uC7A5\uBE44 \uD30C\uCE20</b>\uB97C \uD68D\uB4DD\uD588\uC2B5\uB2C8\uB2E4!
+      \uC778\uBCA4\uD1A0\uB9AC\uC5D0\uC11C \uBCF4\uC720\uD55C \uD30C\uCE20\uB97C
+      \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 90
+    id: inventory_intro
+    bodyText: "\uC7A5\uCC29\uD560 \uD30C\uCE20\uB97C \uC120\uD0DD\uD558\uC138\uC694."
+    highlightTargetName: PartButtons(Clone)
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 91
+    id: inventory_intro
+    bodyText: "\uD30C\uCE20\uB97C \uACE0\uB974\uBA74 <b>\uB4F1\uAE09\uACFC \uB2A5\uB825\uCE58</b>\uB97C
+      \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Selected Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 92
+    id: inventory_intro
+    bodyText: "\uC2E4\uC81C \uC804\uD22C\uC5D0 \uC801\uC6A9\uD558\uB824\uBA74 <b>\uD30C\uCE20\uB97C
+      \uC7A5\uCC29\uD558\uC138\uC694.</b>"
+    highlightTargetName: Equip_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 93
+    id: inventory_intro
+    bodyText: "\uC7A5\uCC29\uC774 \uC644\uB8CC\uB410\uC2B5\uB2C8\uB2E4. \uD574\uC81C\uD558\uB824\uBA74
+      <b>\uC7A5\uCC29 \uD574\uC81C \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Unequip_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 94
+    id: inventory_intro
+    bodyText: "\uC774\uC81C \uD30C\uCE20\uAC00 \uC7A5\uCC29\uB418\uC5B4 <b>\uC8FC
+      \uC635\uC158\uACFC \uBD80\uAC00 \uC635\uC158</b>\uC774 \uC801\uC6A9\uB429\uB2C8\uB2E4.
+      \uB4F1\uAE09\uACFC \uB808\uBCA8\uC774 \uB192\uC744\uC218\uB85D \uB2A5\uB825\uCE58\uAC00
+      \uB354 \uAC15\uD574\uC9D1\uB2C8\uB2E4."
+    highlightTargetName: Selected Panel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 95
+    id: inventory_intro
+    bodyText: "\uBAA9\uB85D <b>\uC544\uB798 \uBC84\uD2BC</b>\uC73C\uB85C <b>\uB2E4\uB978
+      \uD30C\uCE20\uB85C \uAD50\uCCB4\uD558\uAC70\uB098 \uD544\uC694 \uC5C6\uB294
+      \uD30C\uCE20\uB97C \uD310\uB9E4</b>\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: Buttons Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 96
+    id: inventory_intro
+    bodyText: "<color=#FF0000>\uB2E8, \uD310\uB9E4\uD558\uBA74 \uC989\uC2DC \uCC98\uBD84\uB418\uC5B4
+      \uB418\uB3CC\uB9B4 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.</color> \uC2E0\uC911\uD558\uAC8C
+      \uACB0\uC815\uD558\uC138\uC694!"
+    highlightTargetName: Sell_Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 97
+    id: inventory_intro
+    bodyText: "\uC7A5\uCC29 \uC911\uC778 \uD30C\uCE20\uB294 <b>\uCE74\uD14C\uACE0\uB9AC
+      \uC544\uB798 \uC791\uC740 \uAE00\uC528</b>\uB85C \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+    highlightTargetName: PartSlots_Group
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 98
+    id: inventory_intro
+    bodyText: "<b>\uC5D4\uC9C4 \uD30C\uCE20</b>\uB9CC \uB530\uB85C \uBCF4\uACE0 \uC2F6\uB2E4\uBA74
+      \uD544\uD130\uB97C \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uD45C\uC2DC\uB41C
+      \uBC84\uD2BC\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: Engine_Btn
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 99
+    id: inventory_intro
+    bodyText: "\uC774\uC81C \uBAA9\uB85D\uC5D0 <b>\uC5D4\uC9C4 \uD30C\uCE20</b>\uB9CC
+      \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+    highlightTargetName: Scroll View
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 100
+    id: inventory_intro
+    bodyText: "\uC6D0\uB798\uB300\uB85C \uB418\uB3CC\uB9AC\uB824\uBA74 \uC544\uB798
+      <b>\uD544\uD130 \uCD08\uAE30\uD654 \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: FillterReset_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 101
+    id: inventory_intro
+    bodyText: "\uB9C8\uC9C0\uB9C9\uC73C\uB85C <b>\uC790\uB3D9\uD310\uB9E4 \uC124\uC815</b>\uCC3D\uC744
+      \uC18C\uAC1C\uD558\uACE0 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4. \uD45C\uC2DC\uB41C
+      \uBC84\uD2BC\uC744 \uB20C\uB7EC\uC8FC\uC138\uC694."
+    highlightTargetName: AutoSell_Button
+    advanceType: 1
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 102
+    id: inventory_intro
+    bodyText: "<b>\uC790\uB3D9\uD310\uB9E4 \uC124\uC815</b>\uC740 \uC218 \uB9CE\uC740
+      \uBD88\uD544\uC694\uD55C \uD30C\uCE20\uB4E4\uC744 \uD55C\uAEBC\uBC88\uC5D0
+      \uCC98\uB9AC\uD560 \uB54C \uC0AC\uC6A9\uD569\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 103
+    id: inventory_intro
+    bodyText: "\uC790\uB3D9\uD310\uB9E4\uB294 \uAE30\uBCF8\uC801\uC73C\uB85C \uBE44\uD65C\uC131\uD654\uB418\uC5B4
+      \uC788\uC2B5\uB2C8\uB2E4. \uC6D0\uD558\uC2E4 \uB54C <b>\uC0C1\uB2E8\uC758 ON/OFF
+      \uBC84\uD2BC</b>\uC744 \uB20C\uB7EC \uC790\uB3D9\uC73C\uB85C \uD65C\uC131\uD654\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: AutoSellActive
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 104
+    id: inventory_intro
+    bodyText: "\uAC00\uC6B4\uB370\uC758 3\uAC00\uC9C0 \uBC84\uD2BC \uC911 \uD558\uB098\uB97C
+      \uB20C\uB7EC <b>\uC790\uB3D9\uD310\uB9E4 \uB4F1\uAE09 \uAE30\uC900</b>\uC744
+      \uC5B4\uB514\uAE4C\uC9C0 \uC815\uD560\uC9C0 \uACB0\uC815\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: AutoSellTire
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 105
+    id: inventory_intro
+    bodyText: "\uB2E4\uB9CC, \uD558\uB2E8\uC5D0 \uC788\uB294 \uBCF4\uB77C\uC0C9 \uBC84\uD2BC\uC740
+      <b>[\uC804\uC124\uB4F1\uAE09]\uC744 \uC81C\uC678\uD55C \uBAA8\uB450 \uC790\uB3D9\uD310\uB9E4</b>\uD569\uB2C8\uB2E4."
+    highlightTargetName: EpicAutoSell_Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 106
+    id: inventory_intro
+    bodyText: "\uC2E4\uC218\uB97C \uBC29\uC9C0\uD558\uAE30 \uC704\uD574 <b>\uC804\uC124\uC7A5\uBE44
+      5\uAC1C\uC774\uC0C1 \uC18C\uC9C0 \uC2DC \uD574\uAE08</b>\uB418\uB294 \uCD94\uAC00\uC81C\uD55C\uC744
+      \uAC78\uC5B4\uB1A8\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: EpicAutoSell_Button
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 107
+    id: inventory_intro
+    bodyText: "\uC774 2\uAC00\uC9C0 \uAE30\uB2A5\uC740 \uBCC0\uACBD\uD560 \uB54C\uB9C8\uB2E4
+      <b>\uC790\uB3D9\uC73C\uB85C \uC800\uC7A5</b>\uB429\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 108
+    id: inventory_intro
+    bodyText: "\uC778\uBCA4\uD1A0\uB9AC \uC124\uBA85\uC744 \uB9C8\uCE58\uACA0\uC2B5\uB2C8\uB2E4!"
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 0
+    targetId: true
+  - order: 109
+    id: boss_intro
+    bodyText: "\uBCF4\uC2A4\uC804\uC5D0 \uC785\uC7A5\uD588\uC2B5\uB2C8\uB2E4! \uC9C0\uAE08\uBD80\uD130\uB294
+      <b>\uB2E4\uB978 \uC801 \uC5C6\uC774 \uBCF4\uC2A4\uC640 1:1</b>\uB85C \uC2F8\uC6C1\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 1
+    targetId: 
+  - order: 110
+    id: boss_intro
+    bodyText: "<b>\uBCF4\uC2A4\uC758 \uC774\uB984\uACFC \uCCB4\uB825</b>\uC740 \uD654\uBA74
+      \uC0C1\uB2E8 \uBCF4\uC2A4 HUD\uC5D0\uC11C \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: BossPanel
+    advanceType: 0
+    eventType: 0
+    targetAmount: 1
+    targetId: 
+  - order: 111
+    id: boss_intro
+    bodyText: "\uBCF4\uC2A4\uC804\uC5D0 \uB4E4\uC5B4\uC624\uBA74 <b>\uD68C\uD53C\uAE30\uB3D9</b>\uC774
+      \uD65C\uC131\uD654\uB429\uB2C8\uB2E4. \uC704\uD5D8\uD55C \uACF5\uACA9\uC744
+      \uD53C\uD560 \uB54C \uC720\uC6A9\uD569\uB2C8\uB2E4."
+    highlightTargetName: DodgeCooldown
+    advanceType: 0
+    eventType: 0
+    targetAmount: 1
+    targetId: 
+  - order: 112
+    id: boss_intro
+    bodyText: "\uD68C\uD53C\uAE30\uB3D9\uC5D0\uB294 <b>\uCFE8\uD0C0\uC784</b>\uC774
+      \uC788\uC2B5\uB2C8\uB2E4. \uD55C \uBC88 \uC4F0\uBA74 \uCFE8\uD0C0\uC784\uC774
+      \uB05D\uB0A0 \uB54C\uAE4C\uC9C0 \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC73C\uB2C8
+      \uD0C0\uC774\uBC0D\uC744 \uC798 \uB178\uB9AC\uC138\uC694."
+    highlightTargetName: DodgeCooldown
+    advanceType: 0
+    eventType: 0
+    targetAmount: 1
+    targetId: 
+  - order: 113
+    id: boss_intro
+    bodyText: "\uACF5\uACA9\uC5D0 \uB9DE\uAE30 \uC9C1\uC804\uC5D0 \uD68C\uD53C\uD558\uBA74
+      <color=#59FFFF>PERFECT DODGE!!</color> <b>\uBB34\uC801 \uD310\uC815</b>\uC744
+      \uBC1B\uC2B5\uB2C8\uB2E4."
+    highlightTargetName: 
+    advanceType: 0
+    eventType: 0
+    targetAmount: 1
+    targetId: 
+  - order: 114
+    id: boss_intro
+    bodyText: "<b>\uD654\uBA74\uC744 \uB4DC\uB798\uADF8</b>\uD574 \uD68C\uD53C\uAE30\uB3D9\uC744
+      \uC0AC\uC6A9\uD574 \uBCF4\uC138\uC694."
+    highlightTargetName: DodgeInputArea
+    advanceType: 2
+    eventType: 4
+    targetAmount: 1
+    targetId: 

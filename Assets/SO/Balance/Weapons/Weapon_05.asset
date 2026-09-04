@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c529ea981bc074109bb7afba98b3e58f, type: 3}
+  m_Name: Weapon_05
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileConfig
+  id: 05
+  displayName: "\uBD80\uC2DD\uD0C4"
+  icon: {fileID: 21300000, guid: 4a5d09f157e09564e9443a1846e06d89, type: 3}
+  rarity: 0
+  attackDamage: 10
+  attackType: 1
+  areaRadius: 1
+  areaDamageMultiplier: 0.7
+  maxAreaTargets: 10
+  maxPierceTargets: 3
+  maxLevel: 10
+  damagePercentPerLevel: 0.1
+  maxLevelDuplicateCoreCrystalReward: 1
+  speed: 20
+  lifetime: 2
+  collisionRadius: 0.2
+  knockbackForce: 3.2
+  multiMuzzleFireMode: 2
+  maxBurstMuzzleCount: 3
+  muzzleNamePrefix: FireMuzzle
+  fireFlashEffectPrefab: {fileID: 1777536642811984, guid: aca16543616e2db4490aa9890ecdb4b5, type: 3}
+  projectileEffectPrefab: {fileID: 2592006337852868678, guid: 9eaf11cbc9337e64daf90c1b338ff492, type: 3}
+  hitEffectPrefab: {fileID: 1216502132209632, guid: daa50d159094a9d4d8d33225d9b578d2, type: 3}
+  effectCleanupDelay: 2
+  sfxFire: {fileID: 8300000, guid: 24f016831eb1ef846b9a9cfac49f95ca, type: 3}
