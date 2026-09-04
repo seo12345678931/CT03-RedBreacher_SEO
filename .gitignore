@@ -104,3 +104,31 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# 이 프로젝트는 공유하면 안되는 리소스인 외부에셋이 있습니다. (GitIgnore)
+# 외부 에셋까지 필요하신 경우 이메일을 통해서 직접 연락 바랍니다.
+/Assets/External Assets/
+/Assets/External Assets.meta
+/Assets/GoogleService-Info.plist
+/Assets/GoogleService-Info.plist.meta
+/Assets/google-services.json
+/Assets/google-services.json.meta
+/Assets/StreamingAssets/google-services-desktop.json
+/Assets/StreamingAssets/google-services-desktop.json.meta
+/Assets/Plugins/Android/FirebaseApp.androidlib/res/values/google-services.xml
+/Assets/Firebase/
+/Assets/Firebase.meta
+/Assets/GeneratedLocalRepo/
+/Assets/GeneratedLocalRepo.meta
+/Assets/ExternalDependencyManager/
+/Assets/ExternalDependencyManager.meta
+/Assets/GooglePlayGames/
+/Assets/GooglePlayGames.meta
+/Assets/Editor Default Resources/Firebase/
+/Assets/Editor Default Resources/Firebase.meta
+/Assets/Plugins/Android/FirebaseApp.androidlib/
+/Assets/Plugins/Android/FirebaseApp.androidlib.meta
+/Assets/Plugins/iOS/Firebase/
+/Assets/Plugins/iOS/Firebase.meta
+/Assets/Plugins/tvOS/Firebase/
+/Assets/Plugins/tvOS/Firebase.meta
